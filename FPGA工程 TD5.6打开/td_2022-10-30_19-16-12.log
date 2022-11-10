@@ -1,0 +1,27 @@
+============================================================
+   Tang Dynasty, V5.6.59063
+   Copyright (c) 2012-2022 Anlogic
+   Executable = C:/Anlogic/TD5.6.59063/bin/td.exe
+   Built at =   12:45:13 Sep  6 2022
+   Run by =     Administrator
+   Run Date =   Sun Oct 30 19:16:12 2022
+
+   Run on =     WIN-25FR57M34TT
+============================================================
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+HDL-1007 : analyze verilog file RTL/image_process.v
+HDL-1007 : undeclared symbol 'post3_img_Y', assumed default net type 'wire' in RTL/image_process.v(205)
+HDL-1007 : undeclared symbol 'post3_frame_vsync', assumed default net type 'wire' in RTL/image_process.v(207)
+HDL-1007 : undeclared symbol 'post3_frame_href', assumed default net type 'wire' in RTL/image_process.v(208)
+HDL-1007 : undeclared symbol 'post3_frame_clken', assumed default net type 'wire' in RTL/image_process.v(209)
+HDL-7007 CRITICAL-WARNING: 'post3_img_Y' is already implicitly declared on line 205 in RTL/image_process.v(239)
+HDL-7007 CRITICAL-WARNING: 'post3_frame_vsync' is already implicitly declared on line 207 in RTL/image_process.v(240)
+HDL-7007 CRITICAL-WARNING: 'post3_frame_href' is already implicitly declared on line 208 in RTL/image_process.v(241)
+HDL-7007 CRITICAL-WARNING: 'post3_frame_clken' is already implicitly declared on line 209 in RTL/image_process.v(242)
+HDL-8007 ERROR: cannot find port 'clkw' on this module in al_ip/ramfifo.v(43)
+HDL-8007 ERROR: cannot find port 'clkr' on this module in al_ip/ramfifo.v(46)
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
