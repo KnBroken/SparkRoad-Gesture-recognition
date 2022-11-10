@@ -1,0 +1,114 @@
+standard
+***Report Model: test_camera Device: EG4S20BG256***
+
+IO Statistics
+#IO                        90
+  #input                   29
+  #output                  60
+  #inout                    1
+
+LUT Statistics
+#Total_luts              8657
+  #lut4                  2429
+  #lut5                   797
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b            5431
+
+Utilization Statistics
+#lut                     8657   out of  19600   44.17%
+#reg                     3286   out of  19600   16.77%
+#le                         0
+#dsp                       29   out of     29  100.00%
+#bram                      11   out of     64   17.19%
+  #bram9k                   0
+  #fifo9k                  11
+#bram32k                    2   out of     16   12.50%
+#pad                       90   out of    188   47.87%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------------------------------------------+
+|Instance                              |Module                                     |lut     |ripple  |seq     |bram    |dsp     |
++-------------------------------------------------------------------------------------------------------------------------------+
+|top                                   |test_camera                                |3226    |5431    |3286    |13      |29      |
+|  Sdram_Control_4Port                 |Sdram_Control_4Port                        |323     |953     |397     |2       |0       |
+|    command1                          |command                                    |55      |0       |47      |0       |0       |
+|    control1                          |control_interface                          |36      |61      |50      |0       |0       |
+|    data_path1                        |sdr_data_path                              |16      |0       |0       |0       |0       |
+|    read_fifo1                        |Sdram_RD_FIFO                              |38      |55      |105     |1       |0       |
+|      dcfifo_component                |softfifo                                   |38      |55      |105     |1       |0       |
+|        ram_inst                      |ram_infer_softfifo                         |0       |0       |0       |1       |0       |
+|        rd_to_wr_cross_inst           |fifo_cross_domain_addr_process_al_softfifo |17      |0       |40      |0       |0       |
+|        wr_to_rd_cross_inst           |fifo_cross_domain_addr_process_al_softfifo |17      |0       |40      |0       |0       |
+|    sdram1                            |sdram                                      |2       |0       |0       |0       |0       |
+|    write_fifo1                       |Sdram_WR_FIFO                              |39      |55      |103     |1       |0       |
+|      dcfifo_component                |softfifo                                   |39      |55      |103     |1       |0       |
+|        ram_inst                      |ram_infer_softfifo                         |0       |0       |0       |1       |0       |
+|        rd_to_wr_cross_inst           |fifo_cross_domain_addr_process_al_softfifo |17      |0       |40      |0       |0       |
+|        wr_to_rd_cross_inst           |fifo_cross_domain_addr_process_al_softfifo |17      |0       |40      |0       |0       |
+|  u_Mode_Switch                       |Mode_Switch                                |12      |0       |9       |0       |0       |
+|  u_Uart_Send                         |Uart_Send                                  |84      |28      |81      |0       |0       |
+|  u_cam_vga_out                       |Driver                                     |24      |146     |23      |0       |0       |
+|  u_camera_init                       |camera_init                                |499     |28      |85      |0       |0       |
+|    u_i2c_write                       |i2c_module                                 |158     |0       |43      |0       |0       |
+|  u_camera_reader                     |camera_reader                              |26      |42      |63      |0       |0       |
+|  u_image_process                     |image_process                              |1994    |4063    |2551    |11      |29      |
+|    u_Dilation_Detector               |Dilation_Detector                          |66      |102     |78      |2       |0       |
+|      u_three_martix_4                |three_martix                               |62      |102     |70      |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |2       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |2       |0       |0       |1       |0       |
+|    u_Erosion_Detector                |Erosion_Detector                           |65      |102     |78      |2       |0       |
+|      u_three_martix_3                |three_martix                               |61      |102     |70      |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |2       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |2       |0       |0       |1       |0       |
+|    u_Gesture_detch                   |Gesture_detch                              |70      |136     |96      |0       |0       |
+|    u_Hu_Invariant_moment             |Hu_Invariant_moment                        |1042    |2152    |1149    |0       |29      |
+|      u_Divider_1                     |Divider                                    |57      |74      |96      |0       |0       |
+|      u_Divider_2                     |Divider                                    |24      |74      |44      |0       |0       |
+|      u_Divider_3                     |Diver_64                                   |136     |202     |263     |0       |0       |
+|      u_Divider_4                     |Diver_64                                   |73      |202     |135     |0       |0       |
+|      u_Divider_5                     |Diver_64                                   |73      |202     |135     |0       |0       |
+|    u_Median_Gray                     |Median_Gray                                |62      |102     |61      |1       |0       |
+|      u_Median_Filter_3X3_8Bit_median |Median_Filter_3X3                          |0       |0       |6       |0       |0       |
+|      u_three_martix                  |three_martix                               |62      |102     |55      |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |2       |0       |0       |1       |0       |
+|    u_Median_Gray_2                   |Median_Gray                                |196     |482     |254     |2       |0       |
+|      u_Median_Filter_3X3_8Bit_median |Median_Filter_3X3                          |130     |380     |104     |0       |0       |
+|        u_Sort3_1                     |Sort3                                      |30      |60      |24      |0       |0       |
+|        u_Sort3_2                     |Sort3                                      |30      |60      |24      |0       |0       |
+|        u_Sort3_3                     |Sort3                                      |30      |60      |24      |0       |0       |
+|        u_Sort3_4                     |Sort3                                      |10      |40      |8       |0       |0       |
+|        u_Sort3_5                     |Sort3                                      |10      |60      |8       |0       |0       |
+|        u_Sort3_6                     |Sort3                                      |10      |40      |8       |0       |0       |
+|        u_Sort3_7                     |Sort3                                      |10      |60      |8       |0       |0       |
+|      u_three_martix                  |three_martix                               |66      |102     |150     |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |2       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |2       |0       |0       |1       |0       |
+|    u_Median_Gray_3                   |Median_Gray                                |196     |482     |254     |2       |0       |
+|      u_Median_Filter_3X3_8Bit_median |Median_Filter_3X3                          |130     |380     |104     |0       |0       |
+|        u_Sort3_1                     |Sort3                                      |30      |60      |24      |0       |0       |
+|        u_Sort3_2                     |Sort3                                      |30      |60      |24      |0       |0       |
+|        u_Sort3_3                     |Sort3                                      |30      |60      |24      |0       |0       |
+|        u_Sort3_4                     |Sort3                                      |10      |40      |8       |0       |0       |
+|        u_Sort3_5                     |Sort3                                      |10      |60      |8       |0       |0       |
+|        u_Sort3_6                     |Sort3                                      |10      |40      |8       |0       |0       |
+|        u_Sort3_7                     |Sort3                                      |10      |60      |8       |0       |0       |
+|      u_three_martix                  |three_martix                               |66      |102     |150     |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |2       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |2       |0       |0       |1       |0       |
+|    u_Perimeter_aera                  |Perimeter_aera                             |174     |201     |220     |0       |0       |
+|      u_Divider_1                     |Divider                                    |57      |74      |125     |0       |0       |
+|    u_RGBYCbCr                        |RGBYCbCr                                   |3       |50      |162     |0       |0       |
+|    u_Sobel_Process                   |Sobel_Process                              |89      |216     |153     |2       |0       |
+|      u_Caculate_Sobel                |Caculate_Sobel                             |27      |95      |30      |0       |0       |
+|      u_three_martix_2                |three_martix                               |62      |121     |123     |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |2       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |2       |0       |0       |1       |0       |
+|  u_image_select                      |image_select                               |114     |80      |41      |0       |0       |
+|  u_pll                               |ip_pll                                     |0       |0       |0       |0       |0       |
+|  u_vga_display                       |vga_display                                |120     |46      |35      |0       |0       |
++-------------------------------------------------------------------------------------------------------------------------------+

@@ -1,0 +1,24 @@
+============================================================
+   Tang Dynasty, V5.6.59063
+   Copyright (c) 2012-2022 Anlogic
+   Executable = C:/Anlogic/TD5.6.59063/bin/td.exe
+   Built at =   12:45:13 Sep  6 2022
+   Run by =     Administrator
+   Run Date =   Mon Oct 31 18:32:28 2022
+
+   Run on =     WIN-25FR57M34TT
+============================================================
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+HDL-1007 : analyze verilog file RTL/Perimeter_aera.v
+HDL-1007 : undeclared symbol 'row_flag', assumed default net type 'wire' in RTL/Perimeter_aera.v(39)
+HDL-8007 ERROR: procedural assignment to a non-register 'Perimeter_Aera' is not permitted in RTL/Perimeter_aera.v(97)
+HDL-8007 ERROR: procedural assignment to a non-register 'Perimeter_Aera' is not permitted in RTL/Perimeter_aera.v(102)
+HDL-8007 ERROR: ignore module module due to previous errors in RTL/Perimeter_aera.v(1)
+HDL-1007 : Verilog file 'RTL/Perimeter_aera.v' ignored due to errors
+HDL-8007 ERROR: cannot find port 'clkw' on this module in al_ip/ramfifo.v(43)
+HDL-8007 ERROR: cannot find port 'clkr' on this module in al_ip/ramfifo.v(46)
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.

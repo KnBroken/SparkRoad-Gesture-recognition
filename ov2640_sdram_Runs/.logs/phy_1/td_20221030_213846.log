@@ -1,0 +1,1876 @@
+============================================================
+   Tang Dynasty, V5.6.59063
+   Copyright (c) 2012-2022 Anlogic
+   Executable = C:/Anlogic/TD5.6.59063/bin/td.exe
+   Built at =   12:45:13 Sep  6 2022
+   Run by =     Administrator
+   Run Date =   Sun Oct 30 21:38:46 2022
+
+   Run on =     WIN-25FR57M34TT
+============================================================
+RUN-1002 : start command "open_project ov2640_sdram.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../al_ip/ip_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/ip_pll.v(93)
+HDL-1007 : analyze verilog file ../../al_ip/softfifo.v
+HDL-1007 : analyze verilog file ../../al_ip/fifo_1.v
+HDL-1007 : analyze verilog file ../../al_ip/fifo_2.v
+HDL-1007 : analyze verilog file ../../al_ip/Divder_gate.v
+HDL-1007 : undeclared symbol 'open_n2', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(401)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(408)
+HDL-1007 : undeclared symbol 'open_n4', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(415)
+HDL-1007 : undeclared symbol 'open_n5', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(422)
+HDL-1007 : undeclared symbol 'open_n6', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(429)
+HDL-1007 : undeclared symbol 'open_n7', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(436)
+HDL-1007 : undeclared symbol 'open_n8', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(443)
+HDL-1007 : undeclared symbol 'open_n9', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(450)
+HDL-1007 : undeclared symbol 'open_n10', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(457)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(464)
+HDL-1007 : undeclared symbol 'open_n12', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(471)
+HDL-1007 : undeclared symbol 'open_n13', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(478)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(485)
+HDL-1007 : undeclared symbol 'open_n15', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(492)
+HDL-1007 : undeclared symbol 'open_n16', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(499)
+HDL-1007 : undeclared symbol 'open_n17', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(506)
+HDL-1007 : undeclared symbol 'open_n18', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(513)
+HDL-1007 : undeclared symbol 'open_n19', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(520)
+HDL-1007 : undeclared symbol 'open_n20', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(527)
+HDL-1007 : undeclared symbol 'open_n21', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(534)
+HDL-1007 : undeclared symbol 'open_n22', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(541)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(548)
+HDL-1007 : undeclared symbol 'open_n24', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(555)
+HDL-1007 : undeclared symbol 'open_n25', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(562)
+HDL-1007 : undeclared symbol 'open_n26', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(569)
+HDL-1007 : undeclared symbol 'open_n27', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(576)
+HDL-1007 : undeclared symbol 'open_n28', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(583)
+HDL-1007 : undeclared symbol 'open_n29', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(590)
+HDL-1007 : undeclared symbol 'open_n30', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(597)
+HDL-1007 : undeclared symbol 'open_n31', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(604)
+HDL-1007 : undeclared symbol 'open_n32', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(611)
+HDL-1007 : undeclared symbol 'open_n33', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(618)
+HDL-1007 : undeclared symbol 'open_n34', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(625)
+HDL-1007 : undeclared symbol 'open_n35', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(632)
+HDL-1007 : undeclared symbol 'open_n36', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(639)
+HDL-1007 : undeclared symbol 'open_n37', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(646)
+HDL-1007 : undeclared symbol 'open_n38', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(653)
+HDL-1007 : undeclared symbol 'open_n39', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(660)
+HDL-1007 : undeclared symbol 'open_n40', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(667)
+HDL-1007 : undeclared symbol 'open_n41', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(674)
+HDL-1007 : undeclared symbol 'open_n42', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(681)
+HDL-1007 : undeclared symbol 'open_n43', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(688)
+HDL-1007 : undeclared symbol 'open_n44', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(695)
+HDL-1007 : undeclared symbol 'open_n45', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(702)
+HDL-1007 : undeclared symbol 'open_n46', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(709)
+HDL-1007 : undeclared symbol 'open_n47', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(716)
+HDL-1007 : undeclared symbol 'open_n48', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(723)
+HDL-1007 : undeclared symbol 'open_n49', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(730)
+HDL-1007 : undeclared symbol 'open_n50', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(737)
+HDL-1007 : undeclared symbol 'open_n53', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(2384)
+HDL-1007 : undeclared symbol 'open_n54', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(2433)
+HDL-1007 : analyze verilog file ../../al_ip/Divider_32_gate.v
+HDL-1007 : undeclared symbol 'open_n0', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(159)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(164)
+HDL-1007 : undeclared symbol 'open_n6', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(522)
+HDL-1007 : undeclared symbol 'open_n7', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(529)
+HDL-1007 : undeclared symbol 'open_n8', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(536)
+HDL-1007 : undeclared symbol 'open_n9', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(543)
+HDL-1007 : undeclared symbol 'open_n10', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(550)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(557)
+HDL-1007 : undeclared symbol 'open_n12', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(564)
+HDL-1007 : undeclared symbol 'open_n13', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(571)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(578)
+HDL-1007 : undeclared symbol 'open_n15', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(585)
+HDL-1007 : undeclared symbol 'open_n16', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(592)
+HDL-1007 : undeclared symbol 'open_n17', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(599)
+HDL-1007 : undeclared symbol 'open_n18', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(606)
+HDL-1007 : undeclared symbol 'open_n19', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(613)
+HDL-1007 : undeclared symbol 'open_n20', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(620)
+HDL-1007 : undeclared symbol 'open_n21', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(627)
+HDL-1007 : undeclared symbol 'open_n22', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(634)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(641)
+HDL-1007 : undeclared symbol 'open_n24', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(648)
+HDL-1007 : undeclared symbol 'open_n25', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(655)
+HDL-1007 : undeclared symbol 'open_n26', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(662)
+HDL-1007 : undeclared symbol 'open_n27', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(669)
+HDL-1007 : undeclared symbol 'open_n28', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(676)
+HDL-1007 : undeclared symbol 'open_n29', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(683)
+HDL-1007 : undeclared symbol 'open_n30', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(690)
+HDL-1007 : undeclared symbol 'open_n31', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(697)
+HDL-1007 : undeclared symbol 'open_n32', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(704)
+HDL-1007 : undeclared symbol 'open_n33', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(711)
+HDL-1007 : undeclared symbol 'open_n34', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(718)
+HDL-1007 : undeclared symbol 'open_n35', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(725)
+HDL-1007 : undeclared symbol 'open_n36', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(732)
+HDL-1007 : undeclared symbol 'open_n37', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(739)
+HDL-1007 : undeclared symbol 'open_n38', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(746)
+HDL-1007 : undeclared symbol 'open_n39', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(753)
+HDL-1007 : undeclared symbol 'open_n40', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(760)
+HDL-1007 : undeclared symbol 'open_n41', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(767)
+HDL-1007 : undeclared symbol 'open_n42', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(774)
+HDL-1007 : undeclared symbol 'open_n43', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(781)
+HDL-1007 : undeclared symbol 'open_n44', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(788)
+HDL-1007 : undeclared symbol 'open_n45', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(795)
+HDL-1007 : undeclared symbol 'open_n46', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(802)
+HDL-1007 : undeclared symbol 'open_n47', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(809)
+HDL-1007 : undeclared symbol 'open_n48', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(816)
+HDL-1007 : undeclared symbol 'open_n49', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(823)
+HDL-1007 : undeclared symbol 'open_n50', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(830)
+HDL-1007 : undeclared symbol 'open_n51', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(837)
+HDL-1007 : undeclared symbol 'open_n52', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(844)
+HDL-1007 : undeclared symbol 'open_n53', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(851)
+HDL-1007 : undeclared symbol 'open_n54', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(858)
+HDL-1007 : undeclared symbol 'open_n55', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(865)
+HDL-1007 : undeclared symbol 'open_n56', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(872)
+HDL-1007 : undeclared symbol 'open_n57', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(879)
+HDL-1007 : undeclared symbol 'open_n58', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(886)
+HDL-1007 : undeclared symbol 'open_n59', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(893)
+HDL-1007 : undeclared symbol 'open_n60', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(900)
+HDL-1007 : undeclared symbol 'open_n61', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(907)
+HDL-1007 : undeclared symbol 'open_n62', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(914)
+HDL-1007 : undeclared symbol 'open_n63', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(921)
+HDL-1007 : undeclared symbol 'open_n64', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(928)
+HDL-1007 : undeclared symbol 'open_n65', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(935)
+HDL-1007 : undeclared symbol 'open_n66', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(942)
+HDL-1007 : undeclared symbol 'open_n67', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(949)
+HDL-1007 : undeclared symbol 'open_n68', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(956)
+HDL-1007 : undeclared symbol 'open_n69', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(963)
+HDL-1007 : undeclared symbol 'open_n70', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(970)
+HDL-1007 : undeclared symbol 'open_n73', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(3138)
+HDL-1007 : undeclared symbol 'open_n74', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(3250)
+HDL-1007 : analyze verilog file ../../RTL/camera_init.v
+HDL-1007 : undeclared symbol 'clk_div', assumed default net type 'wire' in ../../RTL/camera_init.v(74)
+HDL-1007 : analyze verilog file ../../RTL/camera_reader.v
+HDL-1007 : analyze verilog file ../../RTL/i2c_module.v
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/command.v
+HDL-1007 : analyze included file ../../RTL/Sdram_Control_4Port/Sdram_Params.h in ../../RTL/Sdram_Control_4Port/command.v(27)
+HDL-1007 : back to file '../../RTL/Sdram_Control_4Port/command.v' in ../../RTL/Sdram_Control_4Port/command.v(27)
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/control_interface.v
+HDL-1007 : analyze included file ../../RTL/Sdram_Control_4Port/Sdram_Params.h in ../../RTL/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : back to file '../../RTL/Sdram_Control_4Port/control_interface.v' in ../../RTL/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/sdr_data_path.v
+HDL-1007 : analyze included file ../../RTL/Sdram_Control_4Port/Sdram_Params.h in ../../RTL/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : back to file '../../RTL/Sdram_Control_4Port/sdr_data_path.v' in ../../RTL/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v
+HDL-1007 : analyze included file ../../RTL/Sdram_Control_4Port/Sdram_Params.h in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : back to file '../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v' in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v
+HDL-5007 WARNING: 'clk' is not declared in ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v(44)
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/Sdram_WR_FIFO.v
+HDL-1007 : analyze verilog file ../../al_ip/sdram.v
+HDL-1007 : analyze verilog file ../../RTL/Driver.v
+HDL-1007 : analyze verilog file ../../RTL/RGBYCbCr.v
+HDL-1007 : analyze verilog file ../../RTL/image_process.v
+HDL-1007 : undeclared symbol 'post3_img_Y', assumed default net type 'wire' in ../../RTL/image_process.v(208)
+HDL-1007 : undeclared symbol 'post3_frame_vsync', assumed default net type 'wire' in ../../RTL/image_process.v(210)
+HDL-1007 : undeclared symbol 'post3_frame_href', assumed default net type 'wire' in ../../RTL/image_process.v(211)
+HDL-1007 : undeclared symbol 'post3_frame_clken', assumed default net type 'wire' in ../../RTL/image_process.v(212)
+HDL-7007 CRITICAL-WARNING: 'post3_img_Y' is already implicitly declared on line 208 in ../../RTL/image_process.v(242)
+HDL-7007 CRITICAL-WARNING: 'post3_frame_vsync' is already implicitly declared on line 210 in ../../RTL/image_process.v(243)
+HDL-7007 CRITICAL-WARNING: 'post3_frame_href' is already implicitly declared on line 211 in ../../RTL/image_process.v(244)
+HDL-7007 CRITICAL-WARNING: 'post3_frame_clken' is already implicitly declared on line 212 in ../../RTL/image_process.v(245)
+HDL-5007 WARNING: identifier 'post_img_cb' is used before its declaration in ../../RTL/image_process.v(54)
+HDL-5007 WARNING: identifier 'post_img_cb' is used before its declaration in ../../RTL/image_process.v(58)
+HDL-5007 WARNING: identifier 'post_frame_clken' is used before its declaration in ../../RTL/image_process.v(64)
+HDL-5007 WARNING: identifier 'skin_img' is used before its declaration in ../../RTL/image_process.v(65)
+HDL-5007 WARNING: identifier 'post_frame_clken' is used before its declaration in ../../RTL/image_process.v(68)
+HDL-5007 WARNING: identifier 'skin_img' is used before its declaration in ../../RTL/image_process.v(69)
+HDL-5007 WARNING: identifier 'post3_frame_clken' is used before its declaration in ../../RTL/image_process.v(75)
+HDL-5007 WARNING: identifier 'post1_img_Y' is used before its declaration in ../../RTL/image_process.v(76)
+HDL-5007 WARNING: identifier 'post3_frame_clken' is used before its declaration in ../../RTL/image_process.v(79)
+HDL-5007 WARNING: identifier 'post1_img_Y' is used before its declaration in ../../RTL/image_process.v(80)
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../RTL/test_camera.v
+HDL-1007 : analyze verilog file ../../RTL/Mode_Switch.v
+HDL-1007 : analyze verilog file ../../RTL/image_select.v
+HDL-1007 : undeclared symbol 'row_flag', assumed default net type 'wire' in ../../RTL/image_select.v(54)
+HDL-1007 : analyze verilog file ../../RTL/Median_Gray.v
+HDL-5007 WARNING: identifier 'mid_value' is used before its declaration in ../../RTL/Median_Gray.v(20)
+HDL-1007 : analyze verilog file ../../RTL/three_martix.v
+HDL-5007 WARNING: empty statement in sequential block in ../../RTL/three_martix.v(235)
+HDL-5007 WARNING: empty statement in sequential block in ../../RTL/three_martix.v(234)
+HDL-1007 : analyze verilog file ../../RTL/Median_Filter_3X3.v
+HDL-1007 : analyze verilog file ../../RTL/Sort3.v
+HDL-1007 : analyze verilog file ../../RTL/Sobel_Process.v
+HDL-1007 : undeclared symbol 'csi_pclk', assumed default net type 'wire' in ../../RTL/Sobel_Process.v(48)
+HDL-5007 WARNING: identifier 'sobel_value' is used before its declaration in ../../RTL/Sobel_Process.v(23)
+HDL-1007 : analyze verilog file ../../RTL/Caculate_Sobel.v
+HDL-5007 WARNING: identifier 'matrix_frame_vsync_r' is used before its declaration in ../../RTL/Caculate_Sobel.v(110)
+HDL-5007 WARNING: identifier 'matrix_frame_href_r' is used before its declaration in ../../RTL/Caculate_Sobel.v(111)
+HDL-5007 WARNING: identifier 'matrix_frame_clken_r' is used before its declaration in ../../RTL/Caculate_Sobel.v(112)
+HDL-1007 : analyze verilog file ../../RTL/Erosion_Detector.v
+HDL-1007 : analyze verilog file ../../RTL/Dilation_Detector.v
+HDL-5007 WARNING: redeclaration of ANSI port 'post_img_Bit4' is not allowed in ../../RTL/Dilation_Detector.v(79)
+HDL-1007 : undeclared symbol 'post_frame_href', assumed default net type 'wire' in ../../RTL/Dilation_Detector.v(109)
+HDL-1007 : analyze verilog file ../../RTL/vga_display.v
+HDL-1007 : analyze verilog file ../../RTL/Hu_Invariant_moment.v
+HDL-1007 : undeclared symbol 'row_flag', assumed default net type 'wire' in ../../RTL/Hu_Invariant_moment.v(44)
+HDL-5007 WARNING: redeclaration of ANSI port 'X_0' is not allowed in ../../RTL/Hu_Invariant_moment.v(146)
+HDL-5007 WARNING: redeclaration of ANSI port 'Y_0' is not allowed in ../../RTL/Hu_Invariant_moment.v(147)
+HDL-5007 WARNING: identifier 'ok_flag_n02' is used before its declaration in ../../RTL/Hu_Invariant_moment.v(222)
+HDL-5007 WARNING: 'clk' is not declared in ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v(44)
+RUN-1001 : Project manager successfully analyzed 32 source files.
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "import_db ../syn_1/ov2640_sdram_gate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.59063.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.59063 , DB_VERSION=46140
+RUN-1002 : start command "read_sdc"
+USR-1002 : read_sdc file_name -help -h -eco
+RUN-1002 : start command "get_regs */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs */sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  5 -datapath_only"
+RUN-1002 : start command "get_regs */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs */sync_r1[*]"
+RUN-1002 : start command "set_false_path -from  -to  -hold 5"
+USR-1002 : set_false_path -help -setup -hold -from <list> -rise_from <list> -fall_from <list> -to <list> -rise_to <list> -fall_to <list> -through <list>
+RUN-1002 : start command "get_regs */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs */sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  5 -datapath_only"
+RUN-1002 : start command "get_regs */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs */sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  5 -datapath_only"
+RUN-1002 : start command "get_regs */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs */sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  5 -datapath_only"
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[9](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[9]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[8](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[8]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[7](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[7]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[6](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[6]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[5](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[5]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[4](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[4]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[3](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[3]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[2](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[2]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[1](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[1]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[0](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[0]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[9](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[9]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[8](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[8]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[7](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[7]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[6](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[6]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[5](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[5]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[4](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[4]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[3](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[3]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[2](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[2]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[1](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[1]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[0](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[0]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[9](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[9]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[8](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[8]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[7](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[7]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[6](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[6]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[5](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[5]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[4](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[4]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[3](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[3]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[2](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[2]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[1](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[1]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[0](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[0]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[9](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[9]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[8](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[8]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[7](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[7]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[6](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[6]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[5](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[5]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[4](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[4]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[3](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[3]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[2](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[2]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[1](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[1]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[0](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[0]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[9](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[9]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[8](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[8]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[7](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[7]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[6](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[6]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[5](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[5]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[4](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[4]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[3](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[3]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[2](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[2]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[1](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[1]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[0](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[0]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[9](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[9]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[8](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[8]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[7](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[7]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[6](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[6]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[5](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[5]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[4](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[4]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[3](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[3]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[2](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[2]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[1](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[1]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[0](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[0]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[9](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[9]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[8](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[8]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[7](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[7]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[6](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[6]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[5](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[5]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[4](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[4]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[3](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[3]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[2](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[2]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[1](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[1]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[0](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[0]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[9](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[9]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[8](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[8]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[7](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[7]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[6](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[6]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[5](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[5]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[4](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[4]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[3](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[3]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[2](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[2]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[1](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[1]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[0](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[0]_syn_3)
+RUN-1104 : Import SDC file  finished, there are 80 nets kept by constraints.
+RUN-1002 : start command "config_chipwatcher ../../123.cwc -dir "
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model test_camera
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 2 view nodes, 33 trigger nets, 33 data nets.
+KIT-1004 : Chipwatcher code = 1111010001011100
+RUN-1002 : start command "compile_watcher"
+RUN-1002 : start command "read_verilog -no_sch -dir C:/Anlogic/TD5.6.59063/cw/ -file ov2640_sdram_watcherInst.sv -lib cw -top CW_TOP_WRAPPER"
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\bus_det.v
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\bus_top.sv
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\cfg_int.v
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\cwc_cfg_int.v
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\cwc_top.sv
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\detect_bus.v
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\detect_non_bus.v
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\emb_ctrl.v
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\register.v
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\tap.v
+HDL-1007 : analyze verilog file C:/Anlogic/TD5.6.59063/cw\trigger.sv
+HDL-1007 : analyze verilog file ov2640_sdram_watcherInst.sv
+HDL-1007 : elaborate module CW_TOP_WRAPPER in ov2640_sdram_watcherInst.sv(1)
+HDL-1007 : elaborate module cwc_top(BUS_NUM=2,BUS_DIN_NUM=33,BUS_CTRL_NUM=74,BUS_WIDTH='{32'sb01,32'sb0100000},BUS_DIN_POS='{32'sb0,32'sb01},BUS_CTRL_POS='{32'sb0,32'sb0110}) in C:/Anlogic/TD5.6.59063/cw\cwc_top.sv(21)
+HDL-1007 : elaborate module cwc_cfg_int(CTRL_REG_LEN=96) in C:/Anlogic/TD5.6.59063/cw\cwc_cfg_int.v(21)
+HDL-1007 : elaborate module register(CTRL_REG_LEN=96) in C:/Anlogic/TD5.6.59063/cw\register.v(21)
+HDL-1007 : elaborate module tap in C:/Anlogic/TD5.6.59063/cw\tap.v(21)
+HDL-1007 : elaborate module trigger(BUS_NUM=2,BUS_DIN_NUM=33,BUS_CTRL_NUM=74,BUS_WIDTH='{32'sb01,32'sb0100000},BUS_DIN_POS='{32'sb0,32'sb01},BUS_CTRL_POS='{32'sb0,32'sb0110}) in C:/Anlogic/TD5.6.59063/cw\trigger.sv(21)
+HDL-1007 : elaborate module bus_top(BUS_NODE_NUM=2,BUS_DIN_NUM=33,BUS_CTRL_NUM=74,BUS_WIDTH='{32'sb01,32'sb0100000},BUS_DIN_POS='{32'sb0,32'sb01},BUS_CTRL_POS='{32'sb0,32'sb0110}) in C:/Anlogic/TD5.6.59063/cw\bus_top.sv(22)
+HDL-1007 : elaborate module bus_det(BUS_WIDTH=32'sb01) in C:/Anlogic/TD5.6.59063/cw\bus_det.v(21)
+HDL-1007 : elaborate module bus_det(BUS_WIDTH=32'sb0100000) in C:/Anlogic/TD5.6.59063/cw\bus_det.v(21)
+HDL-1007 : elaborate module emb_ctrl in C:/Anlogic/TD5.6.59063/cw\emb_ctrl.v(21)
+HDL-1200 : Current top model is CW_TOP_WRAPPER
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "force_keep -a auto_chipwatcher_0_logicbram"
+RUN-1002 : start command "optimize_rtl -no_sch"
+RUN-1001 : Open license file C:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+SYN-1012 : SanityCheck: Model "test_camera"
+SYN-1012 : SanityCheck: Model "CW_TOP_WRAPPER"
+SYN-1012 : SanityCheck: Model "cwc_top(BUS_NUM=2,BUS_DIN_NUM=33,BUS_CTRL_NUM=74,BUS_WIDTH='{32'sb01,32'sb0100000},BUS_DIN_POS='{32'sb0,32'sb01},BUS_CTRL_POS='{32'sb0,32'sb0110})"
+SYN-1012 : SanityCheck: Model "cwc_cfg_int(CTRL_REG_LEN=96)"
+SYN-1012 : SanityCheck: Model "register(CTRL_REG_LEN=96)"
+SYN-1012 : SanityCheck: Model "tap"
+SYN-1012 : SanityCheck: Model "trigger(BUS_NUM=2,BUS_DIN_NUM=33,BUS_CTRL_NUM=74,BUS_WIDTH='{32'sb01,32'sb0100000},BUS_DIN_POS='{32'sb0,32'sb01},BUS_CTRL_POS='{32'sb0,32'sb0110})"
+SYN-1012 : SanityCheck: Model "bus_top(BUS_NODE_NUM=2,BUS_DIN_NUM=33,BUS_CTRL_NUM=74,BUS_WIDTH='{32'sb01,32'sb0100000},BUS_DIN_POS='{32'sb0,32'sb01},BUS_CTRL_POS='{32'sb0,32'sb0110})"
+SYN-1012 : SanityCheck: Model "bus_det(BUS_WIDTH=32'sb01)"
+SYN-1012 : SanityCheck: Model "bus_det(BUS_WIDTH=32'sb0100000)"
+SYN-1012 : SanityCheck: Model "emb_ctrl"
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[9](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[9]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[8](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[8]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[7](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[7]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[6](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[6]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[5](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[5]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[4](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[4]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[3](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[3]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[2](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[2]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[1](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[1]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[0](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[0]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[9](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[9]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[8](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[8]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[7](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[7]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[6](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[6]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[5](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[5]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[4](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[4]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[3](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[3]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[2](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[2]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[1](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[1]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[0](Sdram_Control_4Port/read_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[0]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[9](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[9]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[8](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[8]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[7](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[7]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[6](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[6]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[5](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[5]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[4](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[4]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[3](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[3]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[2](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[2]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[1](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[1]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[0](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[0]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[9](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[9]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[8](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[8]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[7](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[7]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[6](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[6]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[5](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[5]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[4](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[4]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[3](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[3]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[2](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[2]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[1](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[1]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[0](Sdram_Control_4Port/read_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[0]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[9](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[9]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[8](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[8]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[7](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[7]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[6](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[6]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[5](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[5]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[4](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[4]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[3](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[3]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[2](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[2]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[1](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[1]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[0](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/primary_addr_gray_reg[0]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[9](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[9]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[8](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[8]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[7](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[7]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[6](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[6]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[5](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[5]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[4](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[4]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[3](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[3]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[2](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[2]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[1](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[1]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[0](Sdram_Control_4Port/write_fifo1/dcfifo_component/rd_to_wr_cross_inst/sync_r1[0]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[9](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[9]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[8](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[8]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[7](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[7]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[6](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[6]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[5](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[5]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[4](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[4]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[3](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[3]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[2](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[2]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[1](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[1]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[0](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/primary_addr_gray_reg[0]_syn_5)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[9](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[9]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[8](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[8]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[7](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[7]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[6](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[6]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[5](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[5]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[4](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[4]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[3](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[3]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[2](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[2]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[1](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[1]_syn_3)
+SYN-1001 : 	kept net: Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[0](Sdram_Control_4Port/write_fifo1/dcfifo_component/wr_to_rd_cross_inst/sync_r1[0]_syn_3)
+SYN-1011 : Flatten model test_camera
+SYN-1032 : 12002/10 useful/useless nets, 9274/2 useful/useless insts
+SYN-1016 : Merged 17 instances.
+SYN-1032 : 11742/18 useful/useless nets, 9643/14 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1021 : Optimized 1 onehot mux instances.
+SYN-1020 : Optimized 1 distributor mux.
+SYN-1019 : Optimized 1 mux instances.
+SYN-1015 : Optimize round 1, 322 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 11515/15 useful/useless nets, 9416/16 useful/useless insts
+SYN-1015 : Optimize round 2, 32 better
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+RUN-1003 : finish command "optimize_rtl -no_sch" in  1.174827s wall, 1.109375s user + 0.062500s system = 1.171875s CPU (99.7%)
+
+RUN-1004 : used memory is 230 MB, reserved memory is 206 MB, peak memory is 232 MB
+RUN-1002 : start command "optimize_gate -no_sch"
+RUN-1001 : Open license file C:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  |  Note  
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :         cascade_dsp         |    off     |       off        |        
+RUN-1001 :         cascade_eram        |    off     |       off        |        
+RUN-1001 :        gate_sim_model       |    off     |       off        |        
+RUN-1001 :        map_sim_model        |    off     |       off        |        
+RUN-1001 :         map_strategy        |     1      |        1         |        
+RUN-1001 :           opt_area          |   medium   |      medium      |        
+RUN-1001 :          opt_timing         |    auto    |       auto       |        
+RUN-1001 :         pack_effort         |   medium   |      medium      |        
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        |        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        |        
+RUN-1001 :        pack_seq_in_io       |    auto    |       auto       |        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        |        
+RUN-1001 :            report           |  standard  |     standard     |        
+RUN-1001 :           retiming          |    off     |       off        |        
+RUN-1001 : ------------------------------------------------------------------
+SYN-2001 : Map 89 IOs to PADs
+RUN-1002 : start command "update_pll_param -module test_camera"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2512 : LOGIC BRAM "auto_chipwatcher_0_logicbram"
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-1001 : Throwback 3 control mux instances
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 32 instances.
+SYN-2501 : Optimize round 1, 66 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 12 macro adder
+SYN-1019 : Optimized 5 mux instances.
+SYN-1016 : Merged 9 instances.
+SYN-1032 : 11947/7 useful/useless nets, 9851/1 useful/useless insts
+RUN-1002 : start command "start_timer -prepack"
+TMR-2505 : Start building timing graph for model test_camera.
+TMR-2506 : Build timing graph completely. Port num: 21, tpin num: 41725, tnet num: 11947, tinst num: 9850, tnode num: 55089, tedge num: 78581.
+TMR-2508 : Levelizing timing graph completed, there are 85 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -prepack" in  1.289994s wall, 1.250000s user + 0.046875s system = 1.296875s CPU (100.5%)
+
+RUN-1004 : used memory is 302 MB, reserved memory is 277 MB, peak memory is 302 MB
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 11947 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 0 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 2 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=5, #lut = 197 (3.47), #lev = 7 (1.67)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 197 (3.47), #lev = 7 (1.67)
+SYN-3001 : Logic optimization runtime opt =   0.02 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 435 instances into 197 LUTs, name keeping = 74%.
+SYN-1001 : Packing model "test_camera" ...
+SYN-4010 : Pack lib has 58 rtl pack models with 25 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 319 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 7 carry chain into lslice
+SYN-4007 : Packing 120 adder to BLE ...
+SYN-4008 : Packed 120 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+RUN-1003 : finish command "optimize_gate -no_sch" in  2.405912s wall, 2.328125s user + 0.078125s system = 2.406250s CPU (100.0%)
+
+RUN-1004 : used memory is 245 MB, reserved memory is 231 MB, peak memory is 311 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model test_camera
+KIT-1004 : Compile Chipwatcher: Clear obsolete physical data.
+RUN-1003 : finish command "compile_watcher" in  3.742972s wall, 3.578125s user + 0.156250s system = 3.734375s CPU (99.8%)
+
+RUN-1004 : used memory is 246 MB, reserved memory is 231 MB, peak memory is 311 MB
+RUN-1002 : start command "place"
+RUN-1001 : Open license file C:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Place Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :      detailed_place     |     on     |        on        |        
+RUN-1001 :          effort         |   medium   |      medium      |        
+RUN-1001 :         fix_hold        |    off     |       off        |        
+RUN-1001 :       legalization      |    ori     |       ori        |        
+RUN-1001 :      new_spreading      |     on     |        on        |        
+RUN-1001 :        opt_timing       |   medium   |      medium      |        
+RUN-1001 :   post_clock_route_opt  |    off     |       off        |        
+RUN-1001 :       pr_strategy       |     1      |        1         |        
+RUN-1001 :        relaxation       |    1.00    |       1.00       |        
+RUN-1001 :         retiming        |    off     |       off        |        
+RUN-1001 : --------------------------------------------------------------
+PHY-3001 : Placer runs in 16 thread(s).
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model test_camera
+SYN-5055 WARNING: The kept net u_pll/clk3_out will be merged to another kept net clk_cam
+SYN-5055 WARNING: The kept net u_camera_reader/clk will be merged to another kept net clk_cam
+SYN-5055 WARNING: The kept net figuredata[19] will be merged to another kept net figuredata[18]
+SYN-5055 WARNING: The kept net figuredata[18] will be merged to another kept net figuredata[17]
+SYN-5055 WARNING: The kept net figuredata[17] will be merged to another kept net figuredata[16]
+SYN-5055 WARNING: The kept net figuredata[16] will be merged to another kept net figuredata[15]
+SYN-5055 WARNING: The kept net figuredata[15] will be merged to another kept net figuredata[14]
+SYN-5055 WARNING: The kept net figuredata[14] will be merged to another kept net figuredata[13]
+SYN-5055 WARNING: The kept net figuredata[13] will be merged to another kept net figuredata[12]
+SYN-5055 WARNING: The kept net figuredata[12] will be merged to another kept net figuredata[11]
+SYN-5055 Similar messages will be suppressed.
+RUN-1002 : start command "phys_opt -simplify_lut"
+SYN-4016 : Net Sdram_Control_4Port/CTRL_CLK driven by BUFG (405 clock/control pins, 1 other pins).
+SYN-4016 : Net config_inst_syn_10 driven by BUFG (212 clock/control pins, 0 other pins).
+SYN-4027 : Net Sdram_Control_4Port/SDRAM_CLK is clkc1 of pll u_pll/pll_inst.
+SYN-4027 : Net vga_clk_dup_1 is clkc2 of pll u_pll/pll_inst.
+SYN-4027 : Net clk_cam is clkc3 of pll u_pll/pll_inst.
+SYN-4027 : Net u_camera_init/u_i2c_write/clk is clkc4 of pll u_pll/pll_inst.
+SYN-4019 : Net clk_24m_dup_1 is refclk of pll u_pll/pll_inst.
+SYN-4020 : Net clk_24m_dup_1 is fbclk of pll u_pll/pll_inst.
+SYN-4024 : Net "u_image_process/u_Median_Gray_3/u_three_martix/csi_pclk" drives clk pins.
+SYN-4024 : Net "u_camera_init/divider2[8]" drives clk pins.
+SYN-4024 : Net "u_camera_init/divider2[7]" drives clk pins.
+SYN-4024 : Net "u_image_select/mode[3]_syn_26" drives clk pins.
+SYN-4024 : Net "u_image_process/wrreq" drives clk pins.
+SYN-4025 : Tag rtl::Net Sdram_Control_4Port/CTRL_CLK as clock net
+SYN-4025 : Tag rtl::Net Sdram_Control_4Port/SDRAM_CLK as clock net
+SYN-4025 : Tag rtl::Net clk_24m_dup_1 as clock net
+SYN-4025 : Tag rtl::Net clk_cam as clock net
+SYN-4025 : Tag rtl::Net config_inst_syn_10 as clock net
+SYN-4025 : Tag rtl::Net u_camera_init/divider2[7] as clock net
+SYN-4025 : Tag rtl::Net u_camera_init/divider2[8] as clock net
+SYN-4025 : Tag rtl::Net u_camera_init/u_i2c_write/clk as clock net
+SYN-4025 : Tag rtl::Net u_image_process/u_Median_Gray_3/u_three_martix/csi_pclk as clock net
+SYN-4025 : Tag rtl::Net u_image_process/wrreq as clock net
+SYN-4025 : Tag rtl::Net u_image_select/mode[3]_syn_26 as clock net
+SYN-4025 : Tag rtl::Net vga_clk_dup_1 as clock net
+SYN-4026 : Tagged 12 rtl::Net as clock net
+SYN-4015 : Create BUFG instance for clk Net u_camera_init/divider2[8] to drive 32 clock pins.
+SYN-4015 : Create BUFG instance for clk Net u_camera_init/divider2[7] to drive 18 clock pins.
+SYN-4015 : Create BUFG instance for clk Net u_image_select/mode[3]_syn_26 to drive 17 clock pins.
+SYN-4015 : Create BUFG instance for clk Net u_image_process/wrreq to drive 16 clock pins.
+PHY-1001 : Populate physical database on model test_camera.
+RUN-1001 : There are total 7524 instances
+RUN-0007 : 2752 luts, 3047 seqs, 1035 mslices, 489 lslices, 144 pads, 18 brams, 29 dsps
+RUN-1001 : There are total 9677 nets
+RUN-6004 WARNING: There are 5 nets with only 1 pin.
+RUN-1001 : 6540 nets have 2 pins
+RUN-1001 : 2229 nets have [3 - 5] pins
+RUN-1001 : 730 nets have [6 - 10] pins
+RUN-1001 : 103 nets have [11 - 20] pins
+RUN-1001 : 58 nets have [21 - 99] pins
+RUN-1001 : 12 nets have 100+ pins
+RUN-1001 : Report Control nets information:
+RUN-1001 : DFF Distribution
+RUN-1001 : ----------------------------------
+RUN-1001 :   CE   |  SSR  |  ASR  |  DFF Count  
+RUN-1001 : ----------------------------------
+RUN-1001 :   No   |  No   |  No   |     285     
+RUN-1001 :   No   |  No   |  Yes  |    1659     
+RUN-1001 :   No   |  Yes  |  No   |     201     
+RUN-1001 :   Yes  |  No   |  No   |     32      
+RUN-1001 :   Yes  |  No   |  Yes  |     846     
+RUN-1001 :   Yes  |  Yes  |  No   |     24      
+RUN-1001 : ----------------------------------
+RUN-0007 : Control Group Statistic
+RUN-0007 : ---------------------------
+RUN-0007 :   #CLK  |  #CE  |  #SSR/ASR  
+RUN-0007 : ---------------------------
+RUN-0007 :    61   |  41   |    107     
+RUN-0007 : ---------------------------
+RUN-0007 : Control Set = 207
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 7522 instances, 2752 luts, 3047 seqs, 1524 slices, 254 macros(1524 instances: 1035 mslices 489 lslices)
+PHY-3001 : Huge net cam_rst_dup_27 with 1987 pins
+PHY-0007 : Cell area utilization is 29%
+PHY-3001 : Start timing update ...
+RUN-1002 : start command "start_timer -report"
+TMR-2505 : Start building timing graph for model test_camera.
+TMR-2506 : Build timing graph completely. Port num: 21, tpin num: 36999, tnet num: 9675, tinst num: 7522, tnode num: 46784, tedge num: 70531.
+TMR-2508 : Levelizing timing graph completed, there are 71 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -report" in  1.257996s wall, 1.250000s user + 0.015625s system = 1.265625s CPU (100.6%)
+
+RUN-1004 : used memory is 326 MB, reserved memory is 301 MB, peak memory is 326 MB
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 9675 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 0 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 2 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  1.456839s wall, 1.437500s user + 0.015625s system = 1.453125s CPU (99.7%)
+
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 2.54873e+06
+PHY-3001 : Clustering ...
+PHY-3001 : Level 0 #clusters 7522.
+PHY-3001 : End clustering;  0.000033s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 29%
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(1): len = 1.79681e+06, overlap = 105.75
+PHY-3002 : Step(2): len = 1.51304e+06, overlap = 108.406
+PHY-3002 : Step(3): len = 916280, overlap = 128.781
+PHY-3002 : Step(4): len = 783474, overlap = 158.469
+PHY-3002 : Step(5): len = 659959, overlap = 151.906
+PHY-3002 : Step(6): len = 580251, overlap = 155.906
+PHY-3002 : Step(7): len = 516472, overlap = 160.281
+PHY-3002 : Step(8): len = 461695, overlap = 176.062
+PHY-3002 : Step(9): len = 415369, overlap = 190.844
+PHY-3002 : Step(10): len = 379667, overlap = 213.688
+PHY-3002 : Step(11): len = 352755, overlap = 239.406
+PHY-3002 : Step(12): len = 328444, overlap = 274.375
+PHY-3002 : Step(13): len = 307100, overlap = 296.188
+PHY-3002 : Step(14): len = 293007, overlap = 310.125
+PHY-3002 : Step(15): len = 282988, overlap = 327.406
+PHY-3002 : Step(16): len = 261329, overlap = 341.094
+PHY-3002 : Step(17): len = 251777, overlap = 349.062
+PHY-3002 : Step(18): len = 239974, overlap = 358.031
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 6.61375e-06
+PHY-3002 : Step(19): len = 252534, overlap = 341.75
+PHY-3002 : Step(20): len = 260642, overlap = 329.594
+PHY-3002 : Step(21): len = 268586, overlap = 319.5
+PHY-3002 : Step(22): len = 273946, overlap = 295.438
+PHY-3002 : Step(23): len = 262131, overlap = 252.688
+PHY-3002 : Step(24): len = 259624, overlap = 225.719
+PHY-3002 : Step(25): len = 263704, overlap = 220.562
+PHY-3002 : Step(26): len = 263677, overlap = 213.156
+PHY-3002 : Step(27): len = 263662, overlap = 204.5
+PHY-3002 : Step(28): len = 251410, overlap = 190.75
+PHY-3002 : Step(29): len = 248458, overlap = 183.719
+PHY-3002 : Step(30): len = 245556, overlap = 167.781
+PHY-3002 : Step(31): len = 242169, overlap = 169.594
+PHY-3002 : Step(32): len = 235748, overlap = 171.625
+PHY-3002 : Step(33): len = 229866, overlap = 168.656
+PHY-3002 : Step(34): len = 226730, overlap = 161
+PHY-3002 : Step(35): len = 220378, overlap = 151.562
+PHY-3002 : Step(36): len = 217544, overlap = 142.938
+PHY-3002 : Step(37): len = 213440, overlap = 123.812
+PHY-3002 : Step(38): len = 208657, overlap = 127.094
+PHY-3002 : Step(39): len = 204857, overlap = 130.219
+PHY-3002 : Step(40): len = 204350, overlap = 127.344
+PHY-3002 : Step(41): len = 204338, overlap = 134.062
+PHY-3002 : Step(42): len = 199703, overlap = 136.938
+PHY-3002 : Step(43): len = 197986, overlap = 136.062
+PHY-3002 : Step(44): len = 194047, overlap = 133.531
+PHY-3002 : Step(45): len = 191397, overlap = 131.469
+PHY-3002 : Step(46): len = 186811, overlap = 134.375
+PHY-3002 : Step(47): len = 185525, overlap = 136.906
+PHY-3002 : Step(48): len = 183903, overlap = 139.281
+PHY-3002 : Step(49): len = 182865, overlap = 139.25
+PHY-3002 : Step(50): len = 182214, overlap = 135.938
+PHY-3002 : Step(51): len = 177264, overlap = 139.156
+PHY-3002 : Step(52): len = 176575, overlap = 140.344
+PHY-3002 : Step(53): len = 175347, overlap = 137.75
+PHY-3002 : Step(54): len = 174524, overlap = 142.344
+PHY-3002 : Step(55): len = 174462, overlap = 141.031
+PHY-3002 : Step(56): len = 171128, overlap = 138.562
+PHY-3002 : Step(57): len = 170702, overlap = 135.375
+PHY-3002 : Step(58): len = 168661, overlap = 136.531
+PHY-3002 : Step(59): len = 168618, overlap = 136.344
+PHY-3002 : Step(60): len = 167994, overlap = 135.375
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 1.32275e-05
+PHY-3002 : Step(61): len = 169095, overlap = 137.719
+PHY-3002 : Step(62): len = 170162, overlap = 137.906
+PHY-3002 : Step(63): len = 170395, overlap = 137.5
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 2.62277e-05
+PHY-3002 : Step(64): len = 172854, overlap = 134.531
+PHY-3002 : Step(65): len = 172958, overlap = 134.156
+PHY-3002 : Step(66): len = 173680, overlap = 132.844
+PHY-3002 : Step(67): len = 173924, overlap = 133.031
+PHY-3002 : Step(68): len = 186312, overlap = 117.094
+PHY-3002 : Step(69): len = 194501, overlap = 115.719
+PHY-3002 : Step(70): len = 199204, overlap = 107.312
+PHY-3002 : Step(71): len = 202681, overlap = 99.9688
+PHY-3002 : Step(72): len = 202206, overlap = 93.7188
+PHY-3002 : Step(73): len = 203483, overlap = 95.5625
+PHY-3002 : Step(74): len = 203079, overlap = 100.188
+PHY-3002 : Step(75): len = 202467, overlap = 101.594
+PHY-3002 : Step(76): len = 200773, overlap = 100.656
+PHY-3002 : Step(77): len = 200195, overlap = 100.938
+PHY-3002 : Step(78): len = 200937, overlap = 101.438
+PHY-3002 : Step(79): len = 199891, overlap = 101.562
+PHY-3002 : Step(80): len = 198556, overlap = 95.375
+PHY-3002 : Step(81): len = 197651, overlap = 92.0312
+PHY-3002 : Step(82): len = 196740, overlap = 91.8438
+PHY-3002 : Step(83): len = 196120, overlap = 91.6875
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 5.24554e-05
+PHY-3002 : Step(84): len = 198306, overlap = 88.4375
+PHY-3002 : Step(85): len = 198819, overlap = 88.4375
+PHY-3002 : Step(86): len = 201680, overlap = 86.75
+PHY-3002 : Step(87): len = 202938, overlap = 86.8125
+PHY-3002 : Step(88): len = 206680, overlap = 86.9688
+PHY-3002 : Step(89): len = 209776, overlap = 85.0312
+PHY-3002 : Step(90): len = 213904, overlap = 87.0938
+PHY-3002 : Step(91): len = 216077, overlap = 92.375
+PHY-3002 : Step(92): len = 216610, overlap = 86.5
+PHY-3002 : Step(93): len = 217436, overlap = 85.2812
+PHY-3002 : Step(94): len = 219492, overlap = 77.4375
+PHY-3002 : Step(95): len = 220349, overlap = 75.4062
+PHY-3002 : Step(96): len = 221681, overlap = 70.7188
+PHY-3002 : Step(97): len = 223451, overlap = 74.4062
+PHY-3002 : Step(98): len = 223124, overlap = 73.4375
+PHY-3002 : Step(99): len = 223002, overlap = 75.3125
+PHY-3002 : Step(100): len = 223427, overlap = 72.6875
+PHY-3002 : Step(101): len = 221581, overlap = 72.375
+PHY-3002 : Step(102): len = 220502, overlap = 72.2188
+PHY-3002 : Step(103): len = 220396, overlap = 72.7812
+PHY-3002 : Step(104): len = 220146, overlap = 72.3125
+PHY-3002 : Step(105): len = 218948, overlap = 72.0625
+PHY-3001 : :::5::: Try harder cell spreading with beta_ = 0.000104911
+PHY-3002 : Step(106): len = 220381, overlap = 72.5
+PHY-3002 : Step(107): len = 220548, overlap = 72.5
+PHY-3002 : Step(108): len = 221592, overlap = 70.5
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.022849s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (136.8%)
+
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 35%
+PHY-3001 : Analyzing congestion ...
+RUN-1001 : Generating global routing grids ...
+RUN-1001 : Building simple global routing graph ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 0/9677.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 348040, over cnt = 1189(3%), over = 6050, worst = 36
+PHY-1001 : End global iterations;  0.466818s wall, 0.812500s user + 0.078125s system = 0.890625s CPU (190.8%)
+
+PHY-1001 : Congestion index: top1 = 75.91, top5 = 51.34, top10 = 41.68, top15 = 36.15.
+PHY-3001 : End congestion estimation;  0.604544s wall, 0.953125s user + 0.078125s system = 1.031250s CPU (170.6%)
+
+PHY-3001 : Update density targets...
+PHY-3001 : Update congestion history...
+PHY-3001 : Update timing in global mode ...
+TMR-2503 : Start to update net delay, extr mode = 5.
+TMR-2504 : Update delay of 9675 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 5.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.239911s wall, 0.234375s user + 0.000000s system = 0.234375s CPU (97.7%)
+
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 5.74652e-06
+PHY-3002 : Step(109): len = 306441, overlap = 59.4375
+PHY-3002 : Step(110): len = 307393, overlap = 58.3438
+PHY-3002 : Step(111): len = 296149, overlap = 77.2812
+PHY-3002 : Step(112): len = 295964, overlap = 78.6875
+PHY-3002 : Step(113): len = 283442, overlap = 81
+PHY-3002 : Step(114): len = 283003, overlap = 81.0312
+PHY-3002 : Step(115): len = 275755, overlap = 86.625
+PHY-3002 : Step(116): len = 275422, overlap = 86.8125
+PHY-3002 : Step(117): len = 271493, overlap = 88.3125
+PHY-3002 : Step(118): len = 269580, overlap = 91.0312
+PHY-3002 : Step(119): len = 268918, overlap = 95.1875
+PHY-3002 : Step(120): len = 265045, overlap = 98.5938
+PHY-3002 : Step(121): len = 264358, overlap = 98.1562
+PHY-3002 : Step(122): len = 262632, overlap = 105.438
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 1.1493e-05
+PHY-3002 : Step(123): len = 258972, overlap = 107.406
+PHY-3002 : Step(124): len = 258975, overlap = 107.344
+PHY-3002 : Step(125): len = 258979, overlap = 107.938
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 2.29861e-05
+PHY-3002 : Step(126): len = 263212, overlap = 97.3438
+PHY-3002 : Step(127): len = 263212, overlap = 97.3438
+PHY-3002 : Step(128): len = 263188, overlap = 97.4375
+PHY-3002 : Step(129): len = 263478, overlap = 95.8438
+PHY-3002 : Step(130): len = 264389, overlap = 95.125
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 35%
+PHY-3001 : Analyzing congestion ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 339/9677.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 290552, over cnt = 1081(3%), over = 5609, worst = 52
+PHY-1001 : End global iterations;  0.389402s wall, 0.578125s user + 0.062500s system = 0.640625s CPU (164.5%)
+
+PHY-1001 : Congestion index: top1 = 79.01, top5 = 54.40, top10 = 43.18, top15 = 36.33.
+PHY-3001 : End congestion estimation;  0.518937s wall, 0.703125s user + 0.062500s system = 0.765625s CPU (147.5%)
+
+PHY-3001 : Update density targets...
+PHY-3001 : Update congestion history...
+PHY-3001 : Update timing in global mode ...
+TMR-2503 : Start to update net delay, extr mode = 5.
+TMR-2504 : Update delay of 9675 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 5.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.261044s wall, 0.265625s user + 0.000000s system = 0.265625s CPU (101.8%)
+
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 1.75919e-05
+PHY-3002 : Step(131): len = 263846, overlap = 337.344
+PHY-3002 : Step(132): len = 264029, overlap = 330.438
+PHY-3002 : Step(133): len = 265743, overlap = 318.594
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 3.51839e-05
+PHY-3002 : Step(134): len = 268746, overlap = 286.281
+PHY-3002 : Step(135): len = 269942, overlap = 279.5
+PHY-3002 : Step(136): len = 278619, overlap = 234.094
+PHY-3002 : Step(137): len = 287306, overlap = 196.469
+PHY-3002 : Step(138): len = 280346, overlap = 189.594
+PHY-3002 : Step(139): len = 279621, overlap = 191.562
+PHY-3002 : Step(140): len = 278994, overlap = 192.531
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 7.03677e-05
+PHY-3002 : Step(141): len = 292419, overlap = 168.375
+PHY-3002 : Step(142): len = 296057, overlap = 154.75
+PHY-3002 : Step(143): len = 303627, overlap = 127.688
+PHY-3002 : Step(144): len = 301379, overlap = 108.344
+PHY-3002 : Step(145): len = 301322, overlap = 104.406
+PHY-3002 : Step(146): len = 301714, overlap = 92.6875
+PHY-3002 : Step(147): len = 302283, overlap = 90.0625
+PHY-3002 : Step(148): len = 304563, overlap = 88.8125
+PHY-3002 : Step(149): len = 302344, overlap = 88.4375
+PHY-3002 : Step(150): len = 302232, overlap = 85.1562
+PHY-3002 : Step(151): len = 300690, overlap = 81.0625
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 0.000140735
+PHY-3002 : Step(152): len = 305738, overlap = 77.0312
+PHY-3002 : Step(153): len = 309831, overlap = 77.7812
+PHY-3002 : Step(154): len = 315816, overlap = 68.875
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 0.000264724
+PHY-3002 : Step(155): len = 316981, overlap = 62.5625
+PHY-3002 : Step(156): len = 322340, overlap = 63.5625
+PHY-3002 : Step(157): len = 335846, overlap = 55.3438
+PHY-3002 : Step(158): len = 341776, overlap = 44.125
+PHY-3002 : Step(159): len = 340976, overlap = 42.5938
+PHY-3002 : Step(160): len = 339496, overlap = 43.3125
+PHY-3002 : Step(161): len = 338838, overlap = 38.0625
+PHY-3002 : Step(162): len = 338696, overlap = 37.0625
+PHY-3002 : Step(163): len = 338601, overlap = 36.9062
+PHY-3002 : Step(164): len = 338640, overlap = 36.6562
+PHY-3002 : Step(165): len = 337272, overlap = 36.5938
+PHY-3002 : Step(166): len = 336807, overlap = 36.9062
+PHY-3002 : Step(167): len = 337191, overlap = 36.875
+PHY-3002 : Step(168): len = 338031, overlap = 34.2812
+PHY-3002 : Step(169): len = 336077, overlap = 33.75
+PHY-3002 : Step(170): len = 335330, overlap = 34.4062
+PHY-3002 : Step(171): len = 335102, overlap = 36.8438
+PHY-3001 : :::5::: Try harder cell spreading with beta_ = 0.000529448
+PHY-3002 : Step(172): len = 338852, overlap = 30.9375
+PHY-3002 : Step(173): len = 342859, overlap = 27.375
+PHY-3002 : Step(174): len = 345681, overlap = 28.4062
+PHY-3002 : Step(175): len = 348530, overlap = 26.625
+PHY-3001 : :::6::: Try harder cell spreading with beta_ = 0.0010589
+PHY-3002 : Step(176): len = 350887, overlap = 25.9688
+PHY-3002 : Step(177): len = 354336, overlap = 27.3438
+PHY-3002 : Step(178): len = 357547, overlap = 25.9375
+PHY-3002 : Step(179): len = 361618, overlap = 26
+PHY-3002 : Step(180): len = 365727, overlap = 28.5
+PHY-3002 : Step(181): len = 368525, overlap = 28.4062
+PHY-3002 : Step(182): len = 370980, overlap = 26.25
+PHY-3002 : Step(183): len = 371573, overlap = 28.2188
+PHY-3002 : Step(184): len = 371685, overlap = 30.9375
+PHY-3002 : Step(185): len = 372375, overlap = 31.8438
+PHY-3002 : Step(186): len = 372886, overlap = 29.8438
+PHY-3002 : Step(187): len = 373048, overlap = 28.625
+PHY-3002 : Step(188): len = 372956, overlap = 28.2188
+PHY-3002 : Step(189): len = 373169, overlap = 26.625
+PHY-3002 : Step(190): len = 373038, overlap = 26.4688
+PHY-3002 : Step(191): len = 372402, overlap = 27
+PHY-3002 : Step(192): len = 371144, overlap = 26.5625
+PHY-3002 : Step(193): len = 370302, overlap = 26.75
+PHY-3002 : Step(194): len = 369700, overlap = 27
+PHY-3001 : :::7::: Try harder cell spreading with beta_ = 0.00211779
+PHY-3002 : Step(195): len = 370745, overlap = 27.3125
+PHY-3002 : Step(196): len = 372055, overlap = 27.6875
+PHY-3002 : Step(197): len = 373530, overlap = 26.1875
+PHY-3002 : Step(198): len = 374910, overlap = 26.75
+PHY-3002 : Step(199): len = 376436, overlap = 25.5938
+OPT-1001 : Start physical optimization ...
+RUN-1002 : start command "start_timer -report"
+TMR-2505 : Start building timing graph for model test_camera.
+TMR-2506 : Build timing graph completely. Port num: 21, tpin num: 36999, tnet num: 9675, tinst num: 7522, tnode num: 46784, tedge num: 70531.
+TMR-2508 : Levelizing timing graph completed, there are 71 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -report" in  1.354973s wall, 1.312500s user + 0.046875s system = 1.359375s CPU (100.3%)
+
+RUN-1004 : used memory is 127 MB, reserved memory is 342 MB, peak memory is 379 MB
+OPT-1001 : Total overflow 232.50 peak overflow 2.25
+OPT-1001 : Start high-fanout net optimization ...
+OPT-1001 : Update timing in global mode
+PHY-1001 : Start incremental global routing, caller is place ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 95/9677.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 434496, over cnt = 1366(3%), over = 4552, worst = 21
+PHY-1001 : End global iterations;  0.567278s wall, 1.062500s user + 0.015625s system = 1.078125s CPU (190.1%)
+
+PHY-1001 : Congestion index: top1 = 57.63, top5 = 43.12, top10 = 36.89, top15 = 33.19.
+PHY-1001 : End incremental global routing;  0.711144s wall, 1.203125s user + 0.031250s system = 1.234375s CPU (173.6%)
+
+TMR-2503 : Start to update net delay, extr mode = 5.
+TMR-2504 : Update delay of 9675 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 5.
+TMR-3001 : Initiate 0 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 2 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  0.258774s wall, 0.250000s user + 0.000000s system = 0.250000s CPU (96.6%)
+
+OPT-1001 : 0 high-fanout net processed.
+OPT-1001 : End high-fanout net optimization;  1.128070s wall, 1.609375s user + 0.031250s system = 1.640625s CPU (145.4%)
+
+OPT-1001 : Current memory(MB): used = 185, reserve = 353, peak = 379.
+OPT-1001 : Start global optimization ...
+OPT-1001 : Start congestion update ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 8178/9677.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 434496, over cnt = 1366(3%), over = 4552, worst = 21
+PHY-1002 : len = 450296, over cnt = 907(2%), over = 2404, worst = 15
+PHY-1002 : len = 461416, over cnt = 468(1%), over = 1129, worst = 12
+PHY-1002 : len = 464576, over cnt = 294(0%), over = 729, worst = 12
+PHY-1002 : len = 468896, over cnt = 90(0%), over = 237, worst = 12
+PHY-1001 : End global iterations;  0.531215s wall, 0.859375s user + 0.015625s system = 0.875000s CPU (164.7%)
+
+PHY-1001 : Congestion index: top1 = 50.34, top5 = 39.47, top10 = 34.38, top15 = 31.34.
+OPT-1001 : End congestion update;  0.667235s wall, 1.000000s user + 0.015625s system = 1.015625s CPU (152.2%)
+
+OPT-1001 : Update timing in Manhattan mode
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 9675 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  0.188933s wall, 0.187500s user + 0.000000s system = 0.187500s CPU (99.2%)
+
+OPT-0007 : Start: WNS 4470 TNS 0 NUM_FEPS 0
+OPT-1001 : End global optimization;  0.856318s wall, 1.187500s user + 0.015625s system = 1.203125s CPU (140.5%)
+
+OPT-1001 : Current memory(MB): used = 188, reserve = 356, peak = 379.
+OPT-1001 : End physical optimization;  3.415863s wall, 4.187500s user + 0.093750s system = 4.281250s CPU (125.3%)
+
+PHY-3001 : Start packing ...
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 2752 LUT to BLE ...
+SYN-4008 : Packed 2752 LUT and 1525 SEQ to BLE.
+SYN-4003 : Packing 1522 remaining SEQ's ...
+SYN-4005 : Packed 732 SEQ with LUT/SLICE
+SYN-4006 : 741 single LUT's are left
+SYN-4006 : 790 single SEQ's are left
+SYN-4011 : Packing model "test_camera" (AL_USER_NORMAL) with 3542/7025 primitive instances ...
+PHY-3001 : End packing;  0.354324s wall, 0.343750s user + 0.000000s system = 0.343750s CPU (97.0%)
+
+PHY-1001 : Populate physical database on model test_camera.
+RUN-1001 : There are total 3755 instances
+RUN-1001 : 1777 mslices, 1777 lslices, 144 pads, 18 brams, 29 dsps
+RUN-1001 : There are total 8224 nets
+RUN-6004 WARNING: There are 5 nets with only 1 pin.
+RUN-1001 : 5028 nets have 2 pins
+RUN-1001 : 2272 nets have [3 - 5] pins
+RUN-1001 : 754 nets have [6 - 10] pins
+RUN-1001 : 91 nets have [11 - 20] pins
+RUN-1001 : 62 nets have [21 - 99] pins
+RUN-1001 : 12 nets have 100+ pins
+PHY-3001 : design contains 3753 instances, 3554 slices, 254 macros(1524 instances: 1035 mslices 489 lslices)
+PHY-3001 : Huge net cam_rst_dup_27 with 1142 pins
+PHY-3001 : Cell area utilization is 43%
+PHY-3001 : After packing: Len = 373929, Over = 68.5
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 43%
+PHY-3001 : Analyzing congestion ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 4403/8224.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 450152, over cnt = 512(1%), over = 783, worst = 8
+PHY-1002 : len = 451880, over cnt = 326(0%), over = 458, worst = 5
+PHY-1002 : len = 454408, over cnt = 155(0%), over = 215, worst = 4
+PHY-1002 : len = 455672, over cnt = 62(0%), over = 87, worst = 3
+PHY-1002 : len = 456368, over cnt = 19(0%), over = 27, worst = 3
+PHY-1001 : End global iterations;  0.629603s wall, 0.906250s user + 0.015625s system = 0.921875s CPU (146.4%)
+
+PHY-1001 : Congestion index: top1 = 46.36, top5 = 36.29, top10 = 31.83, top15 = 29.33.
+PHY-3001 : End congestion estimation;  0.794303s wall, 1.062500s user + 0.015625s system = 1.078125s CPU (135.7%)
+
+PHY-3001 : Update density targets...
+PHY-3001 : Update congestion history...
+PHY-3001 : Update timing in global mode ...
+RUN-1002 : start command "start_timer -report"
+TMR-2505 : Start building timing graph for model test_camera.
+TMR-2506 : Build timing graph completely. Port num: 21, tpin num: 31942, tnet num: 8222, tinst num: 3753, tnode num: 39033, tedge num: 64683.
+TMR-2508 : Levelizing timing graph completed, there are 69 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -report" in  1.498385s wall, 1.484375s user + 0.015625s system = 1.500000s CPU (100.1%)
+
+RUN-1004 : used memory is 200 MB, reserved memory is 362 MB, peak memory is 379 MB
+TMR-2503 : Start to update net delay, extr mode = 5.
+TMR-2504 : Update delay of 8222 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 5.
+TMR-3001 : Initiate 0 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 2 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  1.731836s wall, 1.718750s user + 0.015625s system = 1.734375s CPU (100.1%)
+
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 3.94372e-05
+PHY-3002 : Step(200): len = 354673, overlap = 67.5
+PHY-3002 : Step(201): len = 345919, overlap = 74
+PHY-3002 : Step(202): len = 335687, overlap = 84.25
+PHY-3002 : Step(203): len = 330474, overlap = 91.25
+PHY-3002 : Step(204): len = 326197, overlap = 86.5
+PHY-3002 : Step(205): len = 323594, overlap = 83
+PHY-3002 : Step(206): len = 322714, overlap = 81.5
+PHY-3002 : Step(207): len = 321351, overlap = 80
+PHY-3002 : Step(208): len = 320748, overlap = 76.5
+PHY-3002 : Step(209): len = 319909, overlap = 82
+PHY-3002 : Step(210): len = 319556, overlap = 81.5
+PHY-3002 : Step(211): len = 318815, overlap = 85.5
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 7.88744e-05
+PHY-3002 : Step(212): len = 325375, overlap = 74.5
+PHY-3002 : Step(213): len = 327730, overlap = 70.75
+PHY-3002 : Step(214): len = 331529, overlap = 62.5
+PHY-3002 : Step(215): len = 333348, overlap = 58.25
+PHY-3002 : Step(216): len = 334304, overlap = 55.75
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.000157749
+PHY-3002 : Step(217): len = 340529, overlap = 52.25
+PHY-3002 : Step(218): len = 342988, overlap = 50.25
+PHY-3002 : Step(219): len = 351074, overlap = 41.25
+PHY-3002 : Step(220): len = 353943, overlap = 35.5
+PHY-3002 : Step(221): len = 353350, overlap = 35.25
+PHY-3002 : Step(222): len = 352854, overlap = 35.5
+PHY-3002 : Step(223): len = 351924, overlap = 37.5
+PHY-3002 : Step(224): len = 352638, overlap = 36.25
+PHY-3002 : Step(225): len = 352872, overlap = 37.5
+PHY-3002 : Step(226): len = 352835, overlap = 35.75
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 0.000315498
+PHY-3002 : Step(227): len = 360051, overlap = 34.25
+PHY-3002 : Step(228): len = 364984, overlap = 34
+PHY-3002 : Step(229): len = 368312, overlap = 35
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 0.000630995
+PHY-3002 : Step(230): len = 371680, overlap = 30.25
+PHY-3002 : Step(231): len = 375240, overlap = 29.75
+PHY-3002 : Step(232): len = 376696, overlap = 27.5
+PHY-3002 : Step(233): len = 378791, overlap = 26
+PHY-3002 : Step(234): len = 380525, overlap = 26.25
+PHY-3002 : Step(235): len = 380801, overlap = 26.75
+PHY-3002 : Step(236): len = 380048, overlap = 28
+PHY-3002 : Step(237): len = 380093, overlap = 28.25
+PHY-3002 : Step(238): len = 380480, overlap = 27.75
+PHY-3001 : :::5::: Try harder cell spreading with beta_ = 0.00114565
+PHY-3002 : Step(239): len = 383321, overlap = 27
+PHY-3002 : Step(240): len = 385884, overlap = 26
+PHY-3002 : Step(241): len = 387503, overlap = 26
+PHY-3001 : :::6::: Try harder cell spreading with beta_ = 0.0022913
+PHY-3002 : Step(242): len = 388704, overlap = 25
+PHY-3002 : Step(243): len = 391687, overlap = 26.25
+PHY-3002 : Step(244): len = 395757, overlap = 23.75
+PHY-3002 : Step(245): len = 397489, overlap = 22.5
+PHY-3002 : Step(246): len = 397830, overlap = 22.5
+PHY-3002 : Step(247): len = 397433, overlap = 23.5
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.937302s wall, 0.625000s user + 1.718750s system = 2.343750s CPU (250.1%)
+
+PHY-3001 : Trial Legalized: Len = 416428
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 41%
+PHY-3001 : Analyzing congestion ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 168/8224.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 481656, over cnt = 620(1%), over = 1037, worst = 7
+PHY-1002 : len = 485408, over cnt = 347(0%), over = 485, worst = 7
+PHY-1002 : len = 488304, over cnt = 127(0%), over = 177, worst = 6
+PHY-1002 : len = 489632, over cnt = 22(0%), over = 26, worst = 3
+PHY-1002 : len = 489944, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  1.170368s wall, 1.625000s user + 0.078125s system = 1.703125s CPU (145.5%)
+
+PHY-1001 : Congestion index: top1 = 42.82, top5 = 35.54, top10 = 31.53, top15 = 29.13.
+PHY-3001 : End congestion estimation;  1.350342s wall, 1.796875s user + 0.078125s system = 1.875000s CPU (138.9%)
+
+PHY-3001 : Update density targets...
+PHY-3001 : Update congestion history...
+PHY-3001 : Update timing in global mode ...
+TMR-2503 : Start to update net delay, extr mode = 5.
+TMR-2504 : Update delay of 8222 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 5.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.223302s wall, 0.218750s user + 0.000000s system = 0.218750s CPU (98.0%)
+
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000119341
+PHY-3002 : Step(248): len = 391153, overlap = 7.5
+PHY-3002 : Step(249): len = 378532, overlap = 15.5
+PHY-3002 : Step(250): len = 375226, overlap = 16.75
+PHY-3002 : Step(251): len = 374334, overlap = 17
+PHY-3002 : Step(252): len = 374072, overlap = 19
+PHY-3002 : Step(253): len = 373143, overlap = 19.75
+PHY-3002 : Step(254): len = 372449, overlap = 20.5
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.009753s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (160.2%)
+
+PHY-3001 : Legalized: Len = 380305, Over = 0
+PHY-3001 : Spreading special nets. 28 overflows in 2952 tiles.
+PHY-3001 : End spreading;  0.026882s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (116.2%)
+
+PHY-3001 : 34 instances has been re-located, deltaX = 2, deltaY = 19, maxDist = 1.
+PHY-3001 : Final: Len = 380801, Over = 0
+OPT-1001 : Start physical optimization ...
+RUN-1002 : start command "start_timer -report"
+TMR-2505 : Start building timing graph for model test_camera.
+TMR-2506 : Build timing graph completely. Port num: 21, tpin num: 31942, tnet num: 8222, tinst num: 3753, tnode num: 39033, tedge num: 64683.
+TMR-2508 : Levelizing timing graph completed, there are 69 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -report" in  1.504385s wall, 1.484375s user + 0.015625s system = 1.500000s CPU (99.7%)
+
+RUN-1004 : used memory is 198 MB, reserved memory is 359 MB, peak memory is 379 MB
+OPT-1001 : Total overflow 0.00 peak overflow 0.00
+OPT-1001 : Start high-fanout net optimization ...
+OPT-1001 : Update timing in global mode
+PHY-1001 : Start incremental global routing, caller is place ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 2393/8224.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 448976, over cnt = 569(1%), over = 854, worst = 5
+PHY-1002 : len = 451608, over cnt = 303(0%), over = 402, worst = 4
+PHY-1002 : len = 454816, over cnt = 94(0%), over = 120, worst = 4
+PHY-1002 : len = 456248, over cnt = 4(0%), over = 4, worst = 1
+PHY-1002 : len = 456232, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.916685s wall, 1.359375s user + 0.109375s system = 1.468750s CPU (160.2%)
+
+PHY-1001 : Congestion index: top1 = 42.22, top5 = 34.90, top10 = 31.07, top15 = 28.60.
+PHY-1001 : End incremental global routing;  1.091886s wall, 1.546875s user + 0.109375s system = 1.656250s CPU (151.7%)
+
+TMR-2503 : Start to update net delay, extr mode = 5.
+TMR-2504 : Update delay of 8222 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 5.
+TMR-3001 : Initiate 0 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 2 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  0.233696s wall, 0.234375s user + 0.000000s system = 0.234375s CPU (100.3%)
+
+OPT-1001 : 0 high-fanout net processed.
+OPT-1001 : End high-fanout net optimization;  1.483127s wall, 1.937500s user + 0.109375s system = 2.046875s CPU (138.0%)
+
+OPT-1001 : Current memory(MB): used = 206, reserve = 367, peak = 379.
+OPT-1001 : Start path based optimization ...
+OPT-1001 : Start congestion update ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 7188/8224.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 456232, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.054385s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (86.2%)
+
+PHY-1001 : Congestion index: top1 = 42.22, top5 = 34.90, top10 = 31.07, top15 = 28.60.
+OPT-1001 : End congestion update;  0.199941s wall, 0.203125s user + 0.000000s system = 0.203125s CPU (101.6%)
+
+OPT-1001 : Update timing in Manhattan mode
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 8222 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  0.171379s wall, 0.171875s user + 0.000000s system = 0.171875s CPU (100.3%)
+
+OPT-0007 : Start: WNS 4295 TNS 0 NUM_FEPS 0
+OPT-1001 : End path based optimization;  0.371454s wall, 0.375000s user + 0.000000s system = 0.375000s CPU (101.0%)
+
+OPT-1001 : Current memory(MB): used = 208, reserve = 368, peak = 379.
+OPT-1001 : Update timing in Manhattan mode
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 8222 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  0.167023s wall, 0.171875s user + 0.000000s system = 0.171875s CPU (102.9%)
+
+OPT-1001 : Start pin optimization...
+OPT-1001 : skip pin optimization...
+OPT-1001 : Update timing in global mode
+PHY-1001 : Start incremental global routing, caller is place ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 7188/8224.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 456232, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.055539s wall, 0.062500s user + 0.000000s system = 0.062500s CPU (112.5%)
+
+PHY-1001 : Congestion index: top1 = 42.22, top5 = 34.90, top10 = 31.07, top15 = 28.60.
+PHY-1001 : End incremental global routing;  0.205837s wall, 0.203125s user + 0.000000s system = 0.203125s CPU (98.7%)
+
+TMR-2503 : Start to update net delay, extr mode = 5.
+TMR-2504 : Update delay of 8222 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 5.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  0.220336s wall, 0.218750s user + 0.000000s system = 0.218750s CPU (99.3%)
+
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Reuse net number 7188/8224.
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 456232, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.055870s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (83.9%)
+
+PHY-1001 : Congestion index: top1 = 42.22, top5 = 34.90, top10 = 31.07, top15 = 28.60.
+OPT-1001 : Update timing in Manhattan mode
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 8222 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  0.166423s wall, 0.171875s user + 0.000000s system = 0.171875s CPU (103.3%)
+
+RUN-1001 : QoR Analysis:
+OPT-0007 :   WNS 4295 TNS 0 NUM_FEPS 0
+RUN-1001 :   No local congestion issue, and most congested 1% tile average routing util is 41.793103
+RUN-1001 :   Top critical paths
+OPT-1001 : End physical optimization;  4.390436s wall, 4.828125s user + 0.125000s system = 4.953125s CPU (112.8%)
+
+RUN-1003 : finish command "place" in  27.352518s wall, 55.468750s user + 14.109375s system = 69.578125s CPU (254.4%)
+
+RUN-1004 : used memory is 188 MB, reserved memory is 342 MB, peak memory is 379 MB
+RUN-1002 : start command "export_db ov2640_sdram_place.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "route"
+RUN-1001 : Open license file C:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Route Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :    Parameters    |  Settings  |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :      effort      |   medium   |      medium      |        
+RUN-1001 :     fix_hold     |    off     |       off        |        
+RUN-1001 :    opt_timing    |   medium   |      medium      |        
+RUN-1001 :   phy_sim_model  |    off     |       off        |        
+RUN-1001 :     priority     |   timing   |      timing      |        
+RUN-1001 :     swap_pin     |     on     |        on        |        
+RUN-1001 : -------------------------------------------------------
+PHY-1001 : Route runs in 16 thread(s)
+RUN-1001 : There are total 3755 instances
+RUN-1001 : 1777 mslices, 1777 lslices, 144 pads, 18 brams, 29 dsps
+RUN-1001 : There are total 8224 nets
+RUN-6004 WARNING: There are 5 nets with only 1 pin.
+RUN-1001 : 5028 nets have 2 pins
+RUN-1001 : 2272 nets have [3 - 5] pins
+RUN-1001 : 754 nets have [6 - 10] pins
+RUN-1001 : 91 nets have [11 - 20] pins
+RUN-1001 : 62 nets have [21 - 99] pins
+RUN-1001 : 12 nets have 100+ pins
+RUN-1002 : start command "start_timer -report"
+TMR-2505 : Start building timing graph for model test_camera.
+TMR-2506 : Build timing graph completely. Port num: 21, tpin num: 31942, tnet num: 8222, tinst num: 3753, tnode num: 39033, tedge num: 64683.
+TMR-2508 : Levelizing timing graph completed, there are 69 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -report" in  1.448891s wall, 1.437500s user + 0.000000s system = 1.437500s CPU (99.2%)
+
+RUN-1004 : used memory is 283 MB, reserved memory is 356 MB, peak memory is 379 MB
+PHY-1001 : 1777 mslices, 1777 lslices, 144 pads, 18 brams, 29 dsps
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 8222 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3001 : Initiate 0 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 2 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-1001 : Start global routing, caller is route ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 439032, over cnt = 699(1%), over = 1172, worst = 7
+PHY-1002 : len = 443624, over cnt = 410(1%), over = 556, worst = 7
+PHY-1002 : len = 447136, over cnt = 185(0%), over = 235, worst = 6
+PHY-1002 : len = 449616, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.977158s wall, 1.453125s user + 0.078125s system = 1.531250s CPU (156.7%)
+
+PHY-1001 : Congestion index: top1 = 42.24, top5 = 34.66, top10 = 31.00, top15 = 28.59.
+PHY-1001 : End global routing;  1.135644s wall, 1.609375s user + 0.078125s system = 1.687500s CPU (148.6%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Current memory(MB): used = 319, reserve = 392, peak = 379.
+PHY-1001 : Detailed router is running in normal mode.
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_24m_dup_1 will be routed on clock mesh
+PHY-1001 : net clk_cam will be routed on clock mesh
+PHY-1001 : net vga_clk_dup_1 will be routed on clock mesh
+PHY-1001 : clock net Sdram_Control_4Port/CTRL_CLK will be merged with clock u_pll/clk0_buf
+PHY-1001 : net Sdram_Control_4Port/SDRAM_CLK will be routed on clock mesh
+PHY-1001 : clock net u_camera_init/divider2[8]_syn_4 will be merged with clock u_camera_init/divider2[8]
+PHY-1001 : clock net u_camera_init/divider2[7]_syn_2 will be merged with clock u_camera_init/divider2[7]
+PHY-1001 : net u_camera_init/u_i2c_write/clk will be routed on clock mesh
+PHY-5010 WARNING: Net u_image_process/out_img_imy[1] is skipped due to 0 input or output
+PHY-5010 WARNING: Net u_image_process/out_img_imy[0] is skipped due to 0 input or output
+PHY-5010 WARNING: Net u_image_process/post3_frame_href is skipped due to 0 input or output
+PHY-5010 WARNING: Net u_image_process/post3_frame_vsync is skipped due to 0 input or output
+PHY-1001 : clock net u_image_process/wrreq_syn_2 will be merged with clock u_image_process/wrreq
+PHY-5010 WARNING: Net u_image_process/u_Hu_Invariant_moment/ok_flag_n11 is skipped due to 0 input or output
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-1001 : clock net u_image_select/mode[3]_syn_29 will be merged with clock u_image_select/mode[3]_syn_26
+PHY-1001 : net u_image_process/u_Median_Gray_3/u_three_martix/csi_pclk will be routed on clock mesh
+PHY-5010 WARNING: Net u_image_process/out_img_imy[1] is skipped due to 0 input or output
+PHY-5010 WARNING: Net u_image_process/out_img_imy[0] is skipped due to 0 input or output
+PHY-5010 WARNING: Net u_image_process/post3_frame_href is skipped due to 0 input or output
+PHY-5010 WARNING: Net u_image_process/post3_frame_vsync is skipped due to 0 input or output
+PHY-5010 WARNING: Net u_image_process/u_Hu_Invariant_moment/ok_flag_n11 is skipped due to 0 input or output
+PHY-1001 : Current memory(MB): used = 571, reserve = 645, peak = 571.
+PHY-1001 : End build detailed router design. 3.976159s wall, 3.921875s user + 0.046875s system = 3.968750s CPU (99.8%)
+
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Clock net routing.....
+PHY-1001 : Routed 0% nets.
+PHY-1022 : len = 112504, over cnt = 0(0%), over = 0, worst = 0, crit = 0
+PHY-1001 : End initial clock net routed; 4.558865s wall, 4.562500s user + 0.000000s system = 4.562500s CPU (100.1%)
+
+PHY-1001 : Current memory(MB): used = 605, reserve = 680, peak = 605.
+PHY-1001 : End phase 1; 4.564890s wall, 4.578125s user + 0.000000s system = 4.578125s CPU (100.3%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Initial routing.....
+PHY-1001 : Routed 20% nets.
+PHY-1001 : Routed 24% nets.
+PHY-1001 : Routed 28% nets.
+PHY-1001 : Routed 33% nets.
+PHY-1001 : Routed 42% nets.
+PHY-1001 : Patch 3383 net; 5.783904s wall, 5.781250s user + 0.000000s system = 5.781250s CPU (100.0%)
+
+PHY-1022 : len = 1.06559e+06, over cnt = 244(0%), over = 244, worst = 1, crit = 0
+PHY-1001 : Current memory(MB): used = 610, reserve = 685, peak = 610.
+PHY-1001 : End initial routed; 18.082728s wall, 28.359375s user + 0.093750s system = 28.453125s CPU (157.3%)
+
+PHY-1001 : Update timing.....
+PHY-1001 : 0/6880(0%) critical/total net(s).
+RUN-1001 : ------------------------------------------
+RUN-1001 :   Type   |    WNS(ns)    |  TNS(ns)  |  FEP  
+RUN-1001 : ------------------------------------------
+RUN-1001 :   Setup  |     3.838     |   0.000   |   0   
+RUN-1001 :   Hold   |  2147483.647  |   0.000   |   0   
+RUN-1001 : ------------------------------------------
+PHY-1001 : End update timing; 1.886008s wall, 1.875000s user + 0.015625s system = 1.890625s CPU (100.2%)
+
+PHY-1001 : Current memory(MB): used = 618, reserve = 692, peak = 618.
+PHY-1001 : End phase 2; 19.968805s wall, 30.234375s user + 0.109375s system = 30.343750s CPU (152.0%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Optimize timing.....
+PHY-1022 : len = 1.06559e+06, over cnt = 244(0%), over = 244, worst = 1, crit = 0
+PHY-1001 : End optimize timing; 0.029455s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (106.1%)
+
+PHY-1001 : Ripup-reroute.....
+PHY-1001 : ===== DR Iter 1 =====
+PHY-1022 : len = 1.05938e+06, over cnt = 48(0%), over = 48, worst = 1, crit = 0
+PHY-1001 : End DR Iter 1; 0.598683s wall, 0.812500s user + 0.000000s system = 0.812500s CPU (135.7%)
+
+PHY-1001 : ===== DR Iter 2 =====
+PHY-1022 : len = 1.05914e+06, over cnt = 7(0%), over = 7, worst = 1, crit = 0
+PHY-1001 : End DR Iter 2; 0.158818s wall, 0.203125s user + 0.000000s system = 0.203125s CPU (127.9%)
+
+PHY-1001 : ===== DR Iter 3 =====
+PHY-1022 : len = 1.05905e+06, over cnt = 0(0%), over = 0, worst = 0, crit = 0
+PHY-1001 : End DR Iter 3; 0.074394s wall, 0.062500s user + 0.000000s system = 0.062500s CPU (84.0%)
+
+PHY-1001 : Update timing.....
+PHY-1001 : 0/6880(0%) critical/total net(s).
+RUN-1001 : ------------------------------------------
+RUN-1001 :   Type   |    WNS(ns)    |  TNS(ns)  |  FEP  
+RUN-1001 : ------------------------------------------
+RUN-1001 :   Setup  |     3.838     |   0.000   |   0   
+RUN-1001 :   Hold   |  2147483.647  |   0.000   |   0   
+RUN-1001 : ------------------------------------------
+PHY-1001 : End update timing; 1.890539s wall, 1.875000s user + 0.000000s system = 1.875000s CPU (99.2%)
+
+PHY-1001 : Commit to database.....
+PHY-1001 : 60 feed throughs used by 36 nets
+PHY-1001 : End commit to database; 0.950873s wall, 0.953125s user + 0.000000s system = 0.953125s CPU (100.2%)
+
+PHY-1001 : Current memory(MB): used = 664, reserve = 740, peak = 664.
+PHY-1001 : End phase 3; 3.879287s wall, 4.125000s user + 0.000000s system = 4.125000s CPU (106.3%)
+
+PHY-1003 : Routed, final wirelength = 1.05905e+06
+PHY-1001 : Current memory(MB): used = 666, reserve = 742, peak = 666.
+PHY-1001 : End export database. 0.027798s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (112.4%)
+
+PHY-1001 : End detail routing;  32.713141s wall, 43.156250s user + 0.171875s system = 43.328125s CPU (132.4%)
+
+RUN-1003 : finish command "route" in  35.618113s wall, 46.531250s user + 0.250000s system = 46.781250s CPU (131.3%)
+
+RUN-1004 : used memory is 629 MB, reserved memory is 704 MB, peak memory is 667 MB
+RUN-1002 : start command "report_area -io_info -file ov2640_sdram_phy.area"
+RUN-1001 : standard
+***Report Model: test_camera Device: EG4S20BG256***
+
+IO Statistics
+#IO                        89
+  #input                   29
+  #output                  59
+  #inout                    1
+
+Utilization Statistics
+#lut                     5956   out of  19600   30.39%
+#reg                     3055   out of  19600   15.59%
+#le                      6745
+  #lut only              3690   out of   6745   54.71%
+  #reg only               789   out of   6745   11.70%
+  #lut&reg               2266   out of   6745   33.60%
+#dsp                       29   out of     29  100.00%
+#bram                      16   out of     64   25.00%
+  #bram9k                   4
+  #fifo9k                  12
+#bram32k                    2   out of     16   12.50%
+#pad                       89   out of    188   47.34%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                      12   out of     16   75.00%
+
+Clock Resource Statistics
+Index     ClockNet                                                   Type               DriverType         Driver                                        Fanout
+#1        u_image_process/u_Median_Gray_3/u_three_martix/csi_pclk    GCLK               io                 cam_pclk_syn_9.di                             1294
+#2        u_pll/clk0_buf                                             GCLK               pll                u_pll/pll_inst.clkc0                          253
+#3        config_inst_syn_9                                          GCLK               config             config_inst.jtck                              128
+#4        vga_clk_dup_1                                              GCLK               pll                u_pll/pll_inst.clkc2                          45
+#5        u_camera_init/u_i2c_write/clk                              GCLK               pll                u_pll/pll_inst.clkc4                          24
+#6        u_camera_init/divider2[8]                                  GCLK               mslice             u_camera_init/reg3_syn_42.q0                  22
+#7        u_camera_init/divider2[7]                                  GCLK               mslice             u_camera_init/reg3_syn_42.q1                  18
+#8        u_image_process/wrreq                                      GCLK               lslice             u_image_process/u_RGBYCbCr/reg7_syn_21.f0     12
+#9        u_image_select/mode[3]_syn_26                              GCLK               lslice             u_image_process/u_RGBYCbCr/reg18_syn_42.f1    10
+#10       clk_24m_dup_1                                              GCLK               io                 clk_24m_syn_2.di                              6
+#11       Sdram_Control_4Port/SDRAM_CLK                              GCLK               pll                u_pll/pll_inst.clkc1                          0
+#12       clk_cam                                                    GCLK               pll                u_pll/pll_inst.clkc3                          0
+
+
+Detailed IO Report
+
+     Name        Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+   Switch[5]       INPUT         P6        LVCMOS25          N/A          PULLUP      NONE    
+   Switch[4]       INPUT         M6        LVCMOS25          N/A          PULLUP      NONE    
+   Switch[3]       INPUT         T6        LVCMOS25          N/A          PULLUP      NONE    
+   Switch[2]       INPUT         T5        LVCMOS25          N/A          PULLUP      NONE    
+   Switch[1]       INPUT         R5        LVCMOS25          N/A          PULLUP      NONE    
+   Switch[0]       INPUT         T4        LVCMOS25          N/A          PULLUP      NONE    
+  cam_data[7]      INPUT        H13        LVCMOS33          N/A          PULLUP      NONE    
+  cam_data[6]      INPUT        G16        LVCMOS33          N/A          PULLUP      NONE    
+  cam_data[5]      INPUT        H16        LVCMOS33          N/A          PULLUP      NONE    
+  cam_data[4]      INPUT        G14        LVCMOS33          N/A          PULLUP      NONE    
+  cam_data[3]      INPUT        K15        LVCMOS33          N/A          PULLUP      NONE    
+  cam_data[2]      INPUT        K16        LVCMOS33          N/A          PULLUP      NONE    
+  cam_data[1]      INPUT        J16        LVCMOS33          N/A          PULLUP      NONE    
+  cam_data[0]      INPUT        H15        LVCMOS33          N/A          PULLUP      NONE    
+   cam_href        INPUT        F15        LVCMOS33          N/A          PULLUP      NONE    
+   cam_pclk        INPUT        K12        LVCMOS33          N/A          PULLUP      NONE    
+   cam_vsync       INPUT        E15        LVCMOS33          N/A          PULLUP      NONE    
+    clk_24m        INPUT        K14        LVCMOS33          N/A          PULLUP      NONE    
+     rst_n         INPUT        G11        LVCMOS33          N/A          PULLUP      NONE    
+    Led[15]       OUTPUT        T13        LVCMOS25           8            NONE       NONE    
+    Led[14]       OUTPUT        T12        LVCMOS25           8            NONE       NONE    
+    Led[13]       OUTPUT        R12        LVCMOS25           8            NONE       NONE    
+    Led[12]       OUTPUT         M7        LVCMOS25           8            NONE       NONE    
+    Led[11]       OUTPUT         T9        LVCMOS25           8            NONE       NONE    
+    Led[10]       OUTPUT         T8        LVCMOS25           8            NONE       NONE    
+    Led[9]        OUTPUT         T7        LVCMOS25           8            NONE       NONE    
+    Led[8]        OUTPUT         R7        LVCMOS25           8            NONE       NONE    
+    Led[7]        OUTPUT         P5        LVCMOS25           8            NONE       NONE    
+    Led[6]        OUTPUT         N5        LVCMOS25           8            NONE       NONE    
+    Led[5]        OUTPUT         P4        LVCMOS25           8            NONE       NONE    
+    Led[4]        OUTPUT         M5        LVCMOS25           8            NONE       NONE    
+    Led[3]        OUTPUT         N4        LVCMOS25           8            NONE       NONE    
+    Led[2]        OUTPUT         N3        LVCMOS25           8            NONE       NONE    
+    Led[1]        OUTPUT         M4        LVCMOS25           8            NONE       NONE    
+    Led[0]        OUTPUT         M3        LVCMOS25           8            NONE       NONE    
+   cam_pwdn       OUTPUT        F14        LVCMOS33           8            NONE       NONE    
+    cam_rst       OUTPUT        F13        LVCMOS33           8            NONE       NONE    
+   cam_soic       OUTPUT        D16        LVCMOS33           8           PULLUP      NONE    
+   cam_xclk       OUTPUT        J12        LVCMOS33           8            NONE       NONE    
+   vga_b[7]       OUTPUT         C1        LVCMOS25           8            NONE       NONE    
+   vga_b[6]       OUTPUT         D1        LVCMOS25           8            NONE       NONE    
+   vga_b[5]       OUTPUT         E2        LVCMOS25           8            NONE       NONE    
+   vga_b[4]       OUTPUT         G3        LVCMOS25           8            NONE       NONE    
+   vga_b[3]       OUTPUT         E1        LVCMOS25           8            NONE       NONE    
+   vga_b[2]       OUTPUT         F2        LVCMOS25           8            NONE       NONE    
+   vga_b[1]       OUTPUT         F1        LVCMOS25           8            NONE       NONE    
+   vga_b[0]       OUTPUT         G1        LVCMOS25           8            NONE       NONE    
+    vga_clk       OUTPUT         H2        LVCMOS25           8            NONE       NONE    
+   vga_g[7]       OUTPUT         H5        LVCMOS25           8            NONE       NONE    
+   vga_g[6]       OUTPUT         H1        LVCMOS25           8            NONE       NONE    
+   vga_g[5]       OUTPUT         J6        LVCMOS25           8            NONE       NONE    
+   vga_g[4]       OUTPUT         H3        LVCMOS25           8            NONE       NONE    
+   vga_g[3]       OUTPUT         J1        LVCMOS25           8            NONE       NONE    
+   vga_g[2]       OUTPUT         K1        LVCMOS25           8            NONE       NONE    
+   vga_g[1]       OUTPUT         K2        LVCMOS25           8            NONE       NONE    
+   vga_g[0]       OUTPUT         L1        LVCMOS25           8            NONE       NONE    
+   vga_hsync      OUTPUT         J3        LVCMOS25           8            NONE       NONE    
+   vga_r[7]       OUTPUT         K6        LVCMOS25           8            NONE       NONE    
+   vga_r[6]       OUTPUT         K3        LVCMOS25           8            NONE       NONE    
+   vga_r[5]       OUTPUT         K5        LVCMOS25           8            NONE       NONE    
+   vga_r[4]       OUTPUT         L4        LVCMOS25           8            NONE       NONE    
+   vga_r[3]       OUTPUT         M1        LVCMOS25           8            NONE       NONE    
+   vga_r[2]       OUTPUT         M2        LVCMOS25           8            NONE       NONE    
+   vga_r[1]       OUTPUT         L3        LVCMOS25           8            NONE       NONE    
+   vga_r[0]       OUTPUT         L5        LVCMOS25           8            NONE       NONE    
+   vga_vsync      OUTPUT         J4        LVCMOS25           8            NONE       NONE    
+   cam_soid        INOUT        D14        LVCMOS33           8           PULLUP      NONE    
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                              |Module                                     |le     |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------------------------------------------------+
+|top                                   |test_camera                                |6745   |4432    |1524    |3055    |18      |29      |
+|  Sdram_Control_4Port                 |Sdram_Control_4Port                        |682    |465     |119     |396     |2       |0       |
+|    command1                          |command                                    |61     |61      |0       |49      |0       |0       |
+|    control1                          |control_interface                          |89     |61      |24      |47      |0       |0       |
+|    data_path1                        |sdr_data_path                              |10     |10      |0       |2       |0       |0       |
+|    read_fifo1                        |Sdram_RD_FIFO                              |126    |76      |18      |98      |1       |0       |
+|      dcfifo_component                |softfifo                                   |126    |76      |18      |98      |1       |0       |
+|        ram_inst                      |ram_infer_softfifo                         |0      |0       |0       |0       |1       |0       |
+|        rd_to_wr_cross_inst           |fifo_cross_domain_addr_process_al_softfifo |39     |24      |0       |39      |0       |0       |
+|        wr_to_rd_cross_inst           |fifo_cross_domain_addr_process_al_softfifo |33     |30      |0       |33      |0       |0       |
+|    sdram1                            |sdram                                      |1      |1       |0       |0       |0       |0       |
+|    write_fifo1                       |Sdram_WR_FIFO                              |125    |55      |18      |97      |1       |0       |
+|      dcfifo_component                |softfifo                                   |125    |55      |18      |97      |1       |0       |
+|        ram_inst                      |ram_infer_softfifo                         |0      |0       |0       |0       |1       |0       |
+|        rd_to_wr_cross_inst           |fifo_cross_domain_addr_process_al_softfifo |34     |16      |0       |34      |0       |0       |
+|        wr_to_rd_cross_inst           |fifo_cross_domain_addr_process_al_softfifo |39     |21      |0       |39      |0       |0       |
+|  u_Mode_Switch                       |Mode_Switch                                |11     |11      |0       |9       |0       |0       |
+|  u_cam_vga_out                       |Driver                                     |149    |85      |64      |33      |0       |0       |
+|  u_camera_init                       |camera_init                                |581    |563     |9       |84      |0       |0       |
+|    u_i2c_write                       |i2c_module                                 |177    |174     |0       |43      |0       |0       |
+|  u_camera_reader                     |camera_reader                              |90     |49      |17      |55      |0       |0       |
+|  u_image_process                     |image_process                              |4371   |2698    |1141    |2083    |12      |29      |
+|    u_Dilation_Detector               |Dilation_Detector                          |167    |114     |45      |72      |2       |0       |
+|      u_three_martix_4                |three_martix                               |156    |105     |45      |61      |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |2      |2       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |0      |0       |0       |0       |1       |0       |
+|    u_Erosion_Detector                |Erosion_Detector                           |175    |118     |45      |78      |2       |0       |
+|      u_three_martix_3                |three_martix                               |167    |110     |45      |70      |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |0      |0       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |4      |4       |0       |2       |1       |0       |
+|    u_Hu_Invariant_moment             |Hu_Invariant_moment                        |1755   |1122    |410     |916     |0       |27      |
+|      u_Divider_1                     |Divider                                    |165    |104     |32      |93      |0       |0       |
+|      u_Divider_2                     |Divider                                    |109    |68      |32      |40      |0       |0       |
+|      u_Divider_3                     |Divider_32                                 |277    |129     |46      |175     |0       |0       |
+|      u_Divider_4                     |Divider_32                                 |182    |100     |46      |80      |0       |0       |
+|      u_Divider_5                     |Divider_32                                 |192    |101     |46      |94      |0       |0       |
+|    u_Median_Gray                     |Median_Gray                                |158    |106     |45      |64      |2       |0       |
+|      u_Median_Filter_3X3_8Bit_median |Median_Filter_3X3                          |5      |2       |0       |5       |0       |0       |
+|      u_three_martix                  |three_martix                               |153    |104     |45      |59      |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |2      |2       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |2      |2       |0       |0       |1       |0       |
+|    u_Median_Gray_2                   |Median_Gray                                |722    |415     |235     |285     |2       |0       |
+|      u_Median_Filter_3X3_8Bit_median |Median_Filter_3X3                          |489    |299     |190     |149     |0       |0       |
+|        u_Sort3_1                     |Sort3                                      |84     |54      |30      |35      |0       |0       |
+|        u_Sort3_2                     |Sort3                                      |83     |53      |30      |30      |0       |0       |
+|        u_Sort3_3                     |Sort3                                      |86     |56      |30      |37      |0       |0       |
+|        u_Sort3_4                     |Sort3                                      |48     |28      |20      |16      |0       |0       |
+|        u_Sort3_5                     |Sort3                                      |68     |38      |30      |9       |0       |0       |
+|        u_Sort3_6                     |Sort3                                      |52     |32      |20      |11      |0       |0       |
+|        u_Sort3_7                     |Sort3                                      |68     |38      |30      |11      |0       |0       |
+|      u_three_martix                  |three_martix                               |233    |116     |45      |136     |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |2      |2       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |0      |0       |0       |0       |1       |0       |
+|    u_Median_Gray_3                   |Median_Gray                                |724    |434     |235     |259     |2       |0       |
+|      u_Median_Filter_3X3_8Bit_median |Median_Filter_3X3                          |501    |311     |190     |128     |0       |0       |
+|        u_Sort3_1                     |Sort3                                      |84     |54      |30      |26      |0       |0       |
+|        u_Sort3_2                     |Sort3                                      |91     |61      |30      |30      |0       |0       |
+|        u_Sort3_3                     |Sort3                                      |87     |57      |30      |34      |0       |0       |
+|        u_Sort3_4                     |Sort3                                      |50     |30      |20      |10      |0       |0       |
+|        u_Sort3_5                     |Sort3                                      |71     |41      |30      |9       |0       |0       |
+|        u_Sort3_6                     |Sort3                                      |50     |30      |20      |8       |0       |0       |
+|        u_Sort3_7                     |Sort3                                      |68     |38      |30      |11      |0       |0       |
+|      u_three_martix                  |three_martix                               |223    |123     |45      |131     |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |0      |0       |0       |0       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |0      |0       |0       |0       |1       |0       |
+|    u_RGBYCbCr                        |RGBYCbCr                                   |112    |43      |14      |90      |0       |2       |
+|    u_Sobel_Process                   |Sobel_Process                              |353    |188     |92      |187     |2       |0       |
+|      u_Caculate_Sobel                |Caculate_Sobel                             |132    |85      |47      |60      |0       |0       |
+|      u_three_martix_2                |three_martix                               |221    |103     |45      |127     |2       |0       |
+|        u_fifo_1                      |fifo_1                                     |2      |2       |0       |1       |1       |0       |
+|        u_fifo_2                      |fifo_2                                     |0      |0       |0       |0       |1       |0       |
+|  u_image_select                      |image_select                               |168    |124     |39      |60      |0       |0       |
+|  u_pll                               |ip_pll                                     |0      |0       |0       |0       |0       |0       |
+|  u_vga_display                       |vga_display                                |107    |83      |24      |33      |0       |0       |
+|  cw_top                              |CW_TOP_WRAPPER                             |536    |320     |95      |298     |0       |0       |
+|    wrapper_cwc_top                   |cwc_top                                    |536    |320     |95      |298     |0       |0       |
+|      cfg_int_inst                    |cwc_cfg_int                                |195    |94      |0       |186     |0       |0       |
+|        reg_inst                      |register                                   |193    |92      |0       |184     |0       |0       |
+|        tap_inst                      |tap                                        |2      |2       |0       |2       |0       |0       |
+|      trigger_inst                    |trigger                                    |341    |226     |95      |112     |0       |0       |
+|        bus_inst                      |bus_top                                    |97     |55      |34      |33      |0       |0       |
+|          BUS_DETECTOR[0]$bus_nodes   |bus_det                                    |1      |1       |0       |1       |0       |0       |
+|          BUS_DETECTOR[1]$bus_nodes   |bus_det                                    |96     |54      |34      |32      |0       |0       |
+|        emb_ctrl_inst                 |emb_ctrl                                   |112    |82      |29      |51      |0       |0       |
++---------------------------------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets  
+    #1          1       4959  
+    #2          2       1215  
+    #3          3       679   
+    #4          4       330   
+    #5        5-10      768   
+    #6        11-50     116   
+    #7       51-100      17   
+    #8       101-500     4    
+    #9        >500       1    
+  Average     2.68            
+
+RUN-1002 : start command "export_db ov2640_sdram_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1003 : finish command "export_db ov2640_sdram_pr.db" in  1.149213s wall, 1.843750s user + 0.015625s system = 1.859375s CPU (161.8%)
+
+RUN-1004 : used memory is 630 MB, reserved memory is 705 MB, peak memory is 683 MB
+RUN-1002 : start command "export_bid ov2640_sdram_inst.bid"
+RUN-1002 : start command "bitgen -bit ov2640_sdram.bit"
+BIT-1003 : Start to generate bitstream. 
+BIT-1002 : Init instances with 16 threads.
+BIT-1002 : Init instances completely, inst num: 3753
+BIT-1002 : Init pips with 16 threads.
+BIT-1002 : Init pips completely, net num: 8224, pip num: 75867
+BIT-1002 : Init feedthrough with 16 threads.
+BIT-1002 : Init feedthrough completely, num: 60
+BIT-1003 : Multithreading accelaration with 16 threads.
+BIT-1003 : Generate bitstream completely, there are 3147 valid insts, and 219425 bits set as '1'.
+BIT-1004 : the usercode register value: 00000000011011001111010001011100
+BIT-1004 : PLL setting string = 0001
+BIT-1004 : Generate bits file ov2640_sdram.bit.
+RUN-1003 : finish command "bitgen -bit ov2640_sdram.bit" in  6.316247s wall, 79.765625s user + 0.562500s system = 80.328125s CPU (1271.8%)
+
+RUN-1004 : used memory is 672 MB, reserved memory is 733 MB, peak memory is 824 MB
+RUN-1002 : start command "backup_run_log run.log ../.logs/phy_1/td_20221030_213846.log"
